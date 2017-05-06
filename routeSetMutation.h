@@ -19,7 +19,10 @@
 //#include "./heuristics/genRoute.h"
 
 #define MUTATION_DEBUG
-//#undef MUTATION_DEBUG
+#undef MUTATION_DEBUG
+
+#pragma GCC push_options
+#pragma GCC optimize("O3")
 
 template<class GenotypeT>
 int rouletteWheelForRoute(GenotypeT & _genotype, eoEvalFuncPtr< Route<double> >& _eval)
@@ -68,6 +71,7 @@ int rouletteWheelForNode( int startIndex,std::vector<int> AdjList, int mutIndex)
     return rng.roulette_wheel(fits, total);
 }
 
+#pragma GCC pop_options
 template<class GenotypeT>
 class SmallMutation : public eoMonOp<GenotypeT>
 {
@@ -94,6 +98,9 @@ public:
      * modifies the parent
      * @param _genotype The parent genotype (will be modified)
      */
+#pragma GCC push_options
+#pragma GCC optimize("O3")
+
     bool operator()(GenotypeT & _genotype)
     {
         // START code for mutation of the _genotype object
@@ -175,6 +182,7 @@ APPEND:     vector<int> AdjListForSelected = AdjList[selectedNode];
         // END code for mutation of the _genotype object
     }
 
+#pragma GCC pop_options
 private:
     // START Private data of an SmallMutation object
     //  varType anyVariable;		   // for example ...
@@ -213,6 +221,8 @@ public:
      * modifies the parent
      * @param _genotype The parent genotype (will be modified)
      */
+#pragma GCC push_options
+#pragma GCC optimize("O3")
     bool operator()(GenotypeT & _genotype)
     {
 			// START code for mutation of the _genotype object
@@ -230,7 +240,7 @@ SELECT_ROUTES:
 		}
 		try_count++;
 		if(r1 == r2)
-			got SELECT_ROUTES;
+			goto SELECT_ROUTES;
 		Route<double>& route1 = _genotype[r1];
 		Route<double>& route2 = _genotype[r2];
 		vector<int> common_nodes;
@@ -331,7 +341,7 @@ SELECT_ROUTES:
 		return false;
         // END code for mutation of the _genotype object
     }
-
+#pragma GCC pop_options
 private:
     // START Private data of an BigMutation object
     eoEvalFuncPtr< Route<double> >& eval; // END   Private data of an BigMutation object
@@ -369,6 +379,9 @@ public:
      * modifies the parent
      * @param _genotype The parent genotype (will be modified)
      */
+#pragma GCC push_options
+#pragma GCC optimize("O3")
+
     bool operator()(GenotypeT & _genotype)
     {
         // START code for mutation of the _genotype object
@@ -426,7 +439,7 @@ public:
         return true;
         // END code for mutation of the _genotype object
     }
-
+#pragma GCC pop_options
 private:
     // START Private data of an BigMutation object
     eoEvalFuncPtr< Route<double> >& eval; // END   Private data of an BigMutation object

@@ -45,7 +45,8 @@ void main_function(int argc, char **argv)
     //selection
     eoDetTournamentSelect<Indi> selectOne(parameters["tFit"]);
     //double perc = (parameters["popSize"] - parameters["eilte"]) / parameters["popSize"]; //eilte
-    unsigned parentNum = parameters["popSize"] - parameters["elite"]; 
+    //unsigned parentNum = parameters["popSize"] - parameters["elite"]; 
+    unsigned parentNum = parameters["popSize"]; 
     //eoSelectPerc<Indi> select(selectOne, perc);
     eoSelectNumber<Indi> select(selectOne, parentNum);
 

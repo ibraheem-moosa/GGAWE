@@ -69,32 +69,38 @@ void print_matrix(vector<vector<T> > &m)
 
 pair<int, int> getHighestDemandPair(Matrix &demand)
 {
-    int from, to;
     double maxDemand = 0;
-
+	vector<pair<int, int> > possible_pairs;
     for(int i=0; i<demand.size(); i++){
         for(int j=0; j<demand[i].size(); j++){
             if(demand[i][j] > maxDemand){
-                from = i, to = j, maxDemand = demand[i][j];
+                maxDemand = demand[i][j];
+				possible_pairs.clear();
+				possible_pairs.push_back(make_pair(i, j));
             }
+			else if(demand[i][j] == maxDemand)
+				possible_pairs.push_back(make_pair(i, j));
         }
     }
     
     //cout << "check: " << from << ' ' << to << ' ' << maxDemand << endl;
-    return make_pair(from, to);
+    return possible_pairs[random() % possible_pairs.size()];
 }
 
 int highestDemandDestination(int from, Matrix &demand)
 {
-	int ret;
 	double maxDemand = -INF;
+	vector<int> possible_destinations;
 	for(int i=0; i<demand[from].size(); i++){
 		if(demand[from][i] > maxDemand){
 			maxDemand = demand[from][i];
-			ret = i;
+			possible_destinations.clear();
+			possible_destinations.push_back(i);
 		}
+		else if(demand[from][i] == maxDemand)
+			possible_destinations.push_back(i);
 	}
-	return ret;
+	return possible_destinations[random() % possible_destinations.size()];
 }
 
 double normalize(Matrix &mat)

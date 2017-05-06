@@ -38,6 +38,7 @@
 #include <apply.h>
 #include <iostream>
 #include <cmath>
+#include "inputData.h"
 
 /** The Simple Genetic Algorithm,
  *
@@ -92,107 +93,99 @@ public:
     }
 #pragma GCC push_options
 #pragma GCC optimize ("O3")
-    void operator()(eoPop<EOT>& _pop)
-    {
-        eoPop<EOT> Q;
-        int gen = 0;
-        prevBest = best.fitness();
-        int stableCounter = 0;
-        do
-        {
-	    double start_time = clock();
-            select(_pop, Q); //select parents from _pop and put in Q
-            //std::cout<<"Print Q " <<Q.size() << std::endl;
 
-            for (unsigned i = 0; i < (_pop.size() - elite) / 2; i++)
-            {
-                // this crossover generates 2 Q from two parents
-                if (cross(Q[2 * i], Q[2 * i + 1]))
-                {
-                    Q[2 * i].invalidate();
-                    Q[2 * i + 1].invalidate();
-                }
+	
+	void operator()(eoPop<EOT>& _pop)
+	{
+		eoPop<EOT> R;
+		eoPop<EOT> Q;
+		int gen = 0;
+		prevBest = best.fitness();
+		int stableCounter = 0;
+		do
+		{
+			double start_time = clock();
+			R.clear();	
+			for (unsigned i = 0; i < _pop.size(); i++)
+			{
+				for(unsigned j = 0; j < parameters["neighborhoodSize"]; j++)
+				{
+					R.push_back(_pop[i]);
+				}
+			}
+			for(unsigned i = 0; i < R.size(); i++)
+			{
+				if(mutate(R[i]))
+					R[i].invalidate();
+				//R[i].fitness();
+			}
+			apply<EOT > (eval, R); //Assess Fitness
+			std::cout << "mutation done\n";
+			select(R, Q);
+			// std::cout <<"Q after breed"<<Q;
+			std::cout << "selection done\n";
+			// std::cout <<"Best indi:"<<Q[Q.size() - elite]<<std::endl;
+			std::cout << "Gen:" << gen << std::endl;
+			EOT competitor;
+			double max_fitness = -INFINITY;
+			for(auto individual : Q){
+				if(individual.fitness() > max_fitness)
+				{
+					competitor = individual;
+					max_fitness = individual.fitness();
+				}
+			}
 
-                if (mutate(Q[2 * i]))
-                {
-                    Q[2 * i].invalidate();
-                }
-				else
-					puts("Mutation failed");
-                if (mutate(Q[2 * i + 1]))
-                {
-                    Q[2 * i + 1].invalidate();
-                }
-				else
-					puts("Mutation failed");
+			if (best < competitor) //using adjusted fitness
+			{
+				best = competitor;
+			}
+			// std::cout << best.D[0] << ',' << best.D[1] << ',' << best.D[2] << ',' << best.Dun << ',' << best.ATT << std::endl;
 
-            }
-            // std::cout <<"Q after breed"<<Q;
-            //choose best individuals from _pop
-            typename eoPop<EOT>::iterator it;
-            for (unsigned i = 0; i < elite; i++)
-            {
-                it = _pop.it_best_element();
-                Q.push_back(*it);
-                _pop.erase(it);
-            }
-            //std::cout <<"Q after add best"<<Q;
-            // std::cout <<"Best indi:"<<Q[Q.size() - elite]<<std::endl;
-            std::cout << "Gen:" << gen << std::endl;
-            /* if(gen == 100)
-             break;*/
-            EOT competitor = Q[Q.size() - elite]; //the best in _pop
+			if (actualBest.actualFitness < competitor.actualFitness)
+			{
+				actualBest = competitor;
+			}
+			std::cout << actualBest.D[0] << ',' << actualBest.D[1] << ',' << actualBest.D[2] << ',' << actualBest.Dun << ',' << actualBest.ATT  << ',' << actualBest.fitness()<< std::endl;
+			double average_fitness = 0.0;
+			for(auto individual : _pop) {
+				average_fitness += individual.fitness();
+			}
+			average_fitness /= _pop.size();
+			double std_dev = 0.0;
+			for(auto individual : _pop) {
+				std_dev += (individual.fitness() - average_fitness) * (individual.actualFitness - average_fitness);
+			}
+			std_dev /= _pop.size();
+			std_dev = sqrt(std_dev);
+			std::cout << std_dev << std::endl;
 
-            if (best < competitor) //using adjusted fitness
-            {
-                best = competitor;
-            }
-            // std::cout << best.D[0] << ',' << best.D[1] << ',' << best.D[2] << ',' << best.Dun << ',' << best.ATT << std::endl;
+			_pop.swap(Q);
+			//apply<EOT > (eval, _pop); //Assess Fitness
 
-            if (actualBest.actualFitness < competitor.actualFitness)
-            {
-                actualBest = competitor;
-            }
-            std::cout << actualBest.D[0] << ',' << actualBest.D[1] << ',' << actualBest.D[2] << ',' << actualBest.Dun << ',' << actualBest.ATT  << ',' << actualBest.fitness()<< std::endl;
-            double average_fitness = 0.0;
-            for(auto individual : _pop) {
-                average_fitness += individual.fitness();
-            }
-            average_fitness /= _pop.size();
-            double std_dev = 0.0;
-            for(auto individual : _pop) {
-                std_dev += (individual.fitness() - average_fitness) * (individual.actualFitness - average_fitness);
-            }
-            std_dev /= _pop.size();
-            std_dev = sqrt(std_dev);
-            std::cout << std_dev << std::endl;
-
-            _pop.swap(Q);
-            apply<EOT > (eval, _pop); //Assess Fitness
-            
-            double fitnessImprovementRatio = (best.fitness() - prevBest) / fabs(prevBest);  
-            if (fitnessImprovementRatio < this->minFitnessRatio)
-            {
-                stableCounter++;
-                if (stableCounter == this->stableCount)
-                {
-                    //break;
-                }
-                prevBest = best.fitness();
-                printf("ratio: %lf stable count: %d\n", fitnessImprovementRatio, stableCounter);
-            }
-            else
-            {
-                prevBest = best.fitness();
-                stableCounter--;
-		if(stableCounter < 0)
-			stableCounter = 0;
-            }
-            gen++;
-            //printf("%d\n", _pop.size());
-	    printf("Time: %lf\n", (clock() - start_time) / CLOCKS_PER_SEC);
-        }while (genCount--);
-    }
+			double fitnessImprovementRatio = (best.fitness() - prevBest) / fabs(prevBest);  
+			if (fitnessImprovementRatio < this->minFitnessRatio)
+			{
+				stableCounter++;
+				if (stableCounter == this->stableCount)
+				{
+					//break;
+				}
+				prevBest = best.fitness();
+				printf("ratio: %lf stable count: %d\n", fitnessImprovementRatio, stableCounter);
+			}
+			else
+			{
+				prevBest = best.fitness();
+				stableCounter--;
+				if(stableCounter < 0)
+					stableCounter = 0;
+			}
+			gen++;
+			//printf("%d\n", _pop.size());
+			printf("Time: %lf\n", (clock() - start_time) / CLOCKS_PER_SEC);
+		}while (genCount--);
+	}
 #pragma GCC pop_options
 private:
 
