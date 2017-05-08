@@ -191,6 +191,150 @@ private:
     eoEvalFuncPtr< Route<double> >& eval;
 };
 
+template<class GenotypeT>
+class AggressiveSmallMutation : public eoMonOp<GenotypeT>
+{
+public:
+    /**
+     * Ctor - no requirement
+     */
+    // START eventually add or modify the anyVariable argument
+
+    AggressiveSmallMutation(float _pDelete, eoEvalFuncPtr< Route<double> >& _eval) : pDelete(_pDelete), eval(_eval)
+    {
+        // START Code of Ctor of an SmallMutation object
+        // END   Code of Ctor of an SmallMutation object
+    }
+
+    /// The class name. Used to display statistics
+
+    std::string className() const
+    {
+        return "SmallMutation";
+    }
+
+    /**
+     * modifies the parent
+     * @param _genotype The parent genotype (will be modified)
+     */
+#pragma GCC push_options
+#pragma GCC optimize("O3")
+
+    bool operator()(GenotypeT & _genotype)
+    {
+        // START code for mutation of the _genotype object
+        int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        Route<double>& mutRoute = _genotype[mutIndex];
+        int num_of_in_or_dels = random() % (mutRoute.mutableR().size() / 2);
+
+        //  std::cout << mutRoute << std::endl;
+        std::list<int>::iterator it[2], nIt;
+        it[FRONT] = mutRoute.mutableR().begin();
+        it[BACK] = mutRoute.mutableR().end();
+        it[BACK]--; //points to last elem
+        int selectedEnd = rng.flip();
+		double tmp = rng.uniform();	
+		int num_of_adds = 0;	
+		int num_of_dels = 0;	
+		for(int i = 0; i < num_of_in_or_dels; i++)
+		{
+        	int selectedNode = *it[selectedEnd];
+        	nIt = it[selectedEnd];
+			if (pDelete >= tmp) //delete a terminal
+			{
+
+				if (mutRoute.mutableR().size() <= parameters["minRouteLength"]){
+					goto APPEND; 
+				}
+	DELETE:    	assert(it[selectedEnd] != mutRoute.mutableR().end());
+				mutRoute.erase(it[selectedEnd]);
+				mutRoute.nodeList[selectedNode] = 0;
+				num_of_dels++;
+				if(selectedEnd == FRONT)
+				{
+					it[selectedEnd] = mutRoute.mutableR().begin();
+				}
+				else
+				{
+					it[selectedEnd] = mutRoute.mutableR().end();
+					it[selectedEnd]--;
+				}
+			}
+			else //append a terminal
+			{
+				
+				if (mutRoute.mutableR().size() >= parameters["maxRouteLength"]){
+					goto DELETE;
+				}
+
+	APPEND:     vector<int> AdjListForSelected = AdjList[selectedNode];
+				for (vector<int>::iterator iit = AdjListForSelected.begin(); iit != AdjListForSelected.end(); iit++)
+				{
+					if (mutRoute.nodeList[*iit] == 1)
+					{
+						AdjListForSelected.erase(iit);
+						--iit;
+					}
+				}
+				if (AdjListForSelected.size() == 0)
+				{
+	#ifdef MUTATION_DEBUG
+					puts("Small Mutation Failed");
+	#endif
+					return false;
+				}
+				int neighbor;
+				if (selectedEnd == FRONT)
+				{
+					nIt++;
+					neighbor = *nIt;
+				}
+				else
+				{
+					nIt--;
+					neighbor = *nIt;
+					it[BACK]++; //again points to end
+				}
+				int toAddIndex;
+			   
+			   // toAddIndex = rng.random(AdjListForSelected.size());
+				toAddIndex = rouletteWheelForNode(selectedNode,AdjListForSelected,mutIndex);
+				mutRoute.insert(it[selectedEnd], AdjListForSelected[toAddIndex]);
+				mutRoute.nodeList[AdjListForSelected[toAddIndex]] = 1;
+				num_of_adds++;
+
+				if(selectedEnd == FRONT)
+				{
+					it[selectedEnd] = mutRoute.mutableR().begin();
+				}
+				else
+				{
+					it[selectedEnd] = mutRoute.mutableR().end();
+					it[selectedEnd]--;
+				}
+			}
+		}
+		assert(mutRoute.mutableR().size() >= minRouteSize);
+		assert(mutRoute.mutableR().size() <= maxRouteSize);
+		assert(num_of_in_or_dels == num_of_adds + num_of_dels);
+ 		
+		mutRoute.invalidate();
+#ifdef MUTATION_DEBUG
+		puts("Small Mutation Successful");
+#endif
+        return true;
+        // END code for mutation of the _genotype object
+    }
+
+#pragma GCC pop_options
+private:
+    // START Private data of an SmallMutation object
+    //  varType anyVariable;		   // for example ...
+    // END   Private data of an SmallMutation object
+    float pDelete;
+    eoEvalFuncPtr< Route<double> >& eval;
+};
+
 
 template<class GenotypeT>
 class RouteCrossMutation : public eoMonOp<GenotypeT>

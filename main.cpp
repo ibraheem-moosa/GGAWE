@@ -38,10 +38,11 @@ void main_function(int argc, char **argv)
     RouteSetEvalFunc<Indi> routeSetEval;
     AdjustedEvalFunc<Indi> adjustedEval(routeSetEval);
 
+	//puts("inside main_function");
     //population
     eoPop<Indi> pop;
     popInitDiverse(pop, parameters["popSize"], parameters["routeSetSize"], adjustedEval); //changed
-
+	//printf("Diverse pop input\n");
     //selection
     eoDetTournamentSelect<Indi> selectOne(parameters["tFit"]);
     //double perc = (parameters["popSize"] - parameters["eilte"]) / parameters["popSize"]; //eilte
@@ -57,11 +58,14 @@ void main_function(int argc, char **argv)
     RouteCrossMutation<Indi> rcM(routeEval, minRouteSize, maxRouteSize);
     BigMutation<Indi> bM(routeEval);
     SmallMutation<Indi> sM(parameters["pDelete"], routeEval);
+    AggressiveSmallMutation<Indi> asM(parameters["pDelete"], routeEval);
     
+   	 
     eoPropCombinedMonOp<Indi> mutation(sM, parameters["pSm"]);
+    mutation.add(asM, parameters["paSm"]);
     mutation.add(rcM, parameters["prcm"]);
-    mutation.add(bM, 1 - parameters["prcm"] - parameters["pSm"]);
-
+    mutation.add(bM, 1 - parameters["prcm"] - parameters["pSm"] - parameters["paSm"]);
+	printf("mutation constructed\n");
     //stop after maxGen generations
     //eoGenContinue<Indi> continuator(parameters["minGen"], parameters[]);
     eoFitnessImprovementRatioContinue<Indi> continuator(10, 50, 100, 0.000);
