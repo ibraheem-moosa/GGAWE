@@ -134,7 +134,7 @@ status getBestRoute(int from, int to, Matrix &distance, Matrix &demand, _Route &
     ///transform to fit shortest path problem
     for(int i=0; i <tempDist.size(); i++) {
         for(int j=0; j<tempDist[i].size(); j++) {
-            if(tempDist[i][j] <= 1.0) tempDist[i][j] = (1 - dw) * tempDist[i][j] +  dw * 0.5 * (1/(tempDemand[i][to]+1) + 1/(tempDemand[j][to]+1));
+            if(tempDist[i][j] <= 1.0) tempDist[i][j] = (1 - dw) * tempDist[i][j] +  dw * 0.5 * (1/(tempDemand[i][to]+tempDemand[i][from]+1) + 1/(tempDemand[j][to]+tempDemand[j][from]+1));
         }
     }
     

@@ -19,7 +19,7 @@
 //#include "./heuristics/genRoute.h"
 
 #define MUTATION_DEBUG
-#undef MUTATION_DEBUG
+//#undef MUTATION_DEBUG
 
 #pragma GCC push_options
 #pragma GCC optimize("O3")
@@ -104,7 +104,8 @@ public:
     bool operator()(GenotypeT & _genotype)
     {
         // START code for mutation of the _genotype object
-        int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        //int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        int mutIndex = rand()%(_genotype.size());
         Route<double>& mutRoute = _genotype[mutIndex];
 
 
@@ -144,11 +145,19 @@ APPEND:     vector<int> AdjListForSelected = AdjList[selectedNode];
             }
             if (AdjListForSelected.size() == 0)
 			{
+		        if (mutRoute.mutableR().size() > parameters["minRouteLength"])
+                    goto DELETE;
 #ifdef MUTATION_DEBUG
 				puts("Small Mutation Failed");
 #endif
                 return false;
 			}
+            else
+            {
+#ifdef MUTATION_DEBUG
+                printf("Adjacency List Size for Small Mutation: %d\n", AdjListForSelected.size());
+#endif
+            }
             int neighbor;
             if (selectedEnd == FRONT)
             {
@@ -163,8 +172,9 @@ APPEND:     vector<int> AdjListForSelected = AdjList[selectedNode];
             }
             int toAddIndex;
            
-           // toAddIndex = rng.random(AdjListForSelected.size());
-            toAddIndex = rouletteWheelForNode(selectedNode,AdjListForSelected,mutIndex);
+            toAddIndex = rand()%(AdjListForSelected.size());
+            //toAddIndex = rng.random(AdjListForSelected.size());
+            //toAddIndex = rouletteWheelForNode(selectedNode,AdjListForSelected,mutIndex);
            
             mutRoute.insert(it[selectedEnd], AdjListForSelected[toAddIndex]);
             mutRoute.nodeList[AdjListForSelected[toAddIndex]] = 1;
@@ -172,9 +182,7 @@ APPEND:     vector<int> AdjListForSelected = AdjList[selectedNode];
 
 		assert(mutRoute.mutableR().size() >= minRouteSize);
 		assert(mutRoute.mutableR().size() <= maxRouteSize);
- 
-       
-               mutRoute.invalidate();
+        mutRoute.invalidate();
 #ifdef MUTATION_DEBUG
 		puts("Small Mutation Successful");
 #endif
@@ -210,7 +218,7 @@ public:
 
     std::string className() const
     {
-        return "SmallMutation";
+        return "AggressiveSmallMutation";
     }
 
     /**
@@ -223,27 +231,35 @@ public:
     bool operator()(GenotypeT & _genotype)
     {
         // START code for mutation of the _genotype object
-        int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        //int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        int mutIndex = rand()%(_genotype.size());
         Route<double>& mutRoute = _genotype[mutIndex];
         int num_of_in_or_dels = random() % (mutRoute.mutableR().size() / 2);
 
+        cout << "Size before aggressive mutation: " << mutRoute.mutableR().size() << endl;
+        
         //  std::cout << mutRoute << std::endl;
         std::list<int>::iterator it[2], nIt;
         it[FRONT] = mutRoute.mutableR().begin();
         it[BACK] = mutRoute.mutableR().end();
         it[BACK]--; //points to last elem
         int selectedEnd = rng.flip();
-		double tmp = rng.uniform();	
-		int num_of_adds = 0;	
+
+        bool deleting;
+        double tmp = rng.uniform();
+        deleting = (pDelete >= tmp)? true: false;	
+		
+        int num_of_adds = 0;	
 		int num_of_dels = 0;	
 		for(int i = 0; i < num_of_in_or_dels; i++)
 		{
         	int selectedNode = *it[selectedEnd];
         	nIt = it[selectedEnd];
-			if (pDelete >= tmp) //delete a terminal
+			if (deleting) //delete a terminal
 			{
 
 				if (mutRoute.mutableR().size() <= parameters["minRouteLength"]){
+                    //deleting = false;
 					goto APPEND; 
 				}
 	DELETE:    	assert(it[selectedEnd] != mutRoute.mutableR().end());
@@ -264,7 +280,8 @@ public:
 			{
 				
 				if (mutRoute.mutableR().size() >= parameters["maxRouteLength"]){
-					goto DELETE;
+					//deleting = true;
+                    goto DELETE;
 				}
 
 	APPEND:     vector<int> AdjListForSelected = AdjList[selectedNode];
@@ -278,10 +295,13 @@ public:
 				}
 				if (AdjListForSelected.size() == 0)
 				{
+
+				    if (mutRoute.mutableR().size() > parameters["minRouteLength"])
+                        goto DELETE;
 	#ifdef MUTATION_DEBUG
-					puts("Small Mutation Failed");
+					puts("Aggressive Mutation Failed to add");
 	#endif
-					return false;
+					continue;
 				}
 				int neighbor;
 				if (selectedEnd == FRONT)
@@ -297,8 +317,9 @@ public:
 				}
 				int toAddIndex;
 			   
-			   // toAddIndex = rng.random(AdjListForSelected.size());
-				toAddIndex = rouletteWheelForNode(selectedNode,AdjListForSelected,mutIndex);
+                toAddIndex = rand()%(AdjListForSelected.size());
+			    //toAddIndex = rng.random(AdjListForSelected.size());
+				//toAddIndex = rouletteWheelForNode(selectedNode,AdjListForSelected,mutIndex);
 				mutRoute.insert(it[selectedEnd], AdjListForSelected[toAddIndex]);
 				mutRoute.nodeList[AdjListForSelected[toAddIndex]] = 1;
 				num_of_adds++;
@@ -316,11 +337,14 @@ public:
 		}
 		assert(mutRoute.mutableR().size() >= minRouteSize);
 		assert(mutRoute.mutableR().size() <= maxRouteSize);
-		assert(num_of_in_or_dels == num_of_adds + num_of_dels);
+		assert(num_of_in_or_dels >= num_of_adds + num_of_dels);
  		
 		mutRoute.invalidate();
+        
+        cout << "Size after aggressive mutation: " << mutRoute.mutableR().size() << endl;
+
 #ifdef MUTATION_DEBUG
-		puts("Small Mutation Successful");
+		puts("Aggressive Mutation Successful");
 #endif
         return true;
         // END code for mutation of the _genotype object
@@ -529,11 +553,10 @@ public:
     bool operator()(GenotypeT & _genotype)
     {
         // START code for mutation of the _genotype object
-        int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        //int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        int mutIndex = rand()%(_genotype.size());
+
         Route<double>& mutRoute = _genotype[mutIndex];
-
-        //std::cout<<_genotype[mutIndex]<<std::endl;
-
 		Matrix tempDemand(demand);
 		
 		for(int i=0; i<_genotype.size(); i++){
@@ -549,7 +572,6 @@ public:
 					tempDemand[*outer][*inner] = 0;
 				}
 			}
-
 		}
 
 		int from = (_genotype[mutIndex].R().front()), to = (_genotype[mutIndex].R().back());
@@ -578,7 +600,6 @@ public:
             newNodeList[*lit] = 1;
         }
         mutRoute.setNodeList(newNodeList);
-
         mutRoute.invalidate();
         return true;
         // END code for mutation of the _genotype object

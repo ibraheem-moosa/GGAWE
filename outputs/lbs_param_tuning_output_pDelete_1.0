@@ -1,0 +1,5469 @@
+pSwap:1
+pSm:0.5
+prcm:0
+maxGen:200
+minRouteLength:10
+routeSetSize:15
+paSm:0.1
+maxRouteLength:30
+stableCount:20
+tFit:80
+minGen:1
+popSize:10
+e:0.7
+minFitnessRatio:1e-05
+maxIter:1
+neighborhoodSize:20
+beta:0.8
+elite:2
+pDelete:1
+run:3
+run:3
+ OpATT19.2695
+minRputeSize: 10 maxRouteSize: 30
+mutation constructed
+Initial : -2.23361e+07
+0.45834
+0.499001
+0.0413411
+0.00131868
+23.1314
+
+-----------------------------------------
+Iteration:0 started
+
+mutation done
+selection done
+Gen:0
+0
+0 1 2 3 4 5 6 7 8 9 
+0.461107,0.497921,0.0409725,0,23.0632,-2.22119e+07
+908598
+Time: 32.950000
+mutation done
+selection done
+Gen:1
+0
+0 0 0 0 0 0 0 0 0 0 
+0.468998,0.50319,0.0275469,0.000264774,22.9199,-2.20857e+07
+58726.8
+Time: 34.740000
+mutation done
+selection done
+Gen:2
+0
+0 0 0 0 0 0 0 0 0 0 
+0.474351,0.498071,0.027578,0,22.8781,-2.20335e+07
+29220.7
+Time: 35.320000
+mutation done
+selection done
+Gen:3
+0
+0 0 0 0 0 0 0 0 0 0 
+0.485674,0.492947,0.0213792,0,22.8421,-2.19989e+07
+12038
+Time: 34.960000
+mutation done
+selection done
+Gen:4
+0
+0 0 0 0 0 0 0 0 0 0 
+0.492392,0.487501,0.0201073,0,22.786,-2.19449e+07
+13889.3
+Time: 37.540000
+mutation done
+selection done
+Gen:5
+0
+0 0 0 0 0 0 0 0 0 0 
+0.498258,0.485684,0.0160578,0,22.7708,-2.19302e+07
+21190.3
+Time: 38.200000
+mutation done
+selection done
+Gen:6
+0
+0 0 0 0 0 0 0 0 0 0 
+0.500989,0.481624,0.0173868,0,22.7666,-2.19262e+07
+7194.15
+Time: 39.660000
+mutation done
+selection done
+Gen:7
+0
+0 0 0 0 0 0 0 0 0 0 
+0.500989,0.481624,0.0173868,0,22.7666,-2.19262e+07
+1942.45
+ratio: 0.000000 stable count: 1
+Time: 39.490000
+mutation done
+selection done
+Gen:8
+0
+0 0 0 0 0 0 0 0 0 0 
+0.505859,0.47581,0.0183317,0,22.7528,-2.19129e+07
+1766.51
+Time: 39.090000
+mutation done
+selection done
+Gen:9
+0
+0 0 0 0 0 0 0 0 0 0 
+0.505859,0.47581,0.0183317,0,22.7528,-2.19129e+07
+6542.59
+ratio: 0.000000 stable count: 1
+Time: 39.460000
+mutation done
+selection done
+Gen:10
+0
+0 0 0 0 0 0 0 0 0 0 
+0.506419,0.478218,0.0153621,0,22.7503,-2.19105e+07
+1606.94
+Time: 39.320000
+mutation done
+selection done
+Gen:11
+0
+0 0 0 0 0 0 0 0 0 0 
+0.506409,0.4784,0.0151908,0,22.7242,-2.18853e+07
+1153.73
+Time: 38.910000
+mutation done
+selection done
+Gen:12
+0
+0 0 0 0 0 0 0 0 0 0 
+0.512727,0.47136,0.0159124,0,22.7144,-2.18759e+07
+12332.7
+Time: 40.900000
+mutation done
+selection done
+Gen:13
+0
+0 0 0 0 0 0 0 0 0 0 
+0.512727,0.47136,0.0159124,0,22.7144,-2.18759e+07
+4083.93
+ratio: 0.000000 stable count: 1
+Time: 40.790000
+mutation done
+selection done
+Gen:14
+0
+0 0 0 0 0 0 0 0 0 0 
+0.512727,0.47136,0.0159124,0,22.7144,-2.18759e+07
+1372.81
+ratio: 0.000000 stable count: 2
+Time: 40.720000
+mutation done
+selection done
+Gen:15
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504011,0.486681,0.00930863,0,22.7137,-2.18752e+07
+668.163
+Time: 40.980000
+mutation done
+selection done
+Gen:16
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504011,0.486681,0.00930863,0,22.7137,-2.18752e+07
+1059.07
+ratio: 0.000000 stable count: 2
+Time: 40.390000
+mutation done
+selection done
+Gen:17
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504011,0.486681,0.00930863,0,22.7137,-2.18752e+07
+877.895
+ratio: 0.000000 stable count: 3
+Time: 40.270000
+mutation done
+selection done
+Gen:18
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504011,0.486681,0.00930863,0,22.7137,-2.18752e+07
+659.882
+ratio: 0.000000 stable count: 4
+Time: 40.410000
+mutation done
+selection done
+Gen:19
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+659.882
+Time: 40.070000
+mutation done
+selection done
+Gen:20
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+335
+ratio: 0.000000 stable count: 4
+Time: 40.220000
+mutation done
+selection done
+Gen:21
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+40
+ratio: 0.000000 stable count: 5
+Time: 40.590000
+mutation done
+selection done
+Gen:22
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+0
+ratio: 0.000000 stable count: 6
+Time: 39.850000
+mutation done
+selection done
+Gen:23
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+459.026
+ratio: 0.000000 stable count: 7
+Time: 40.470000
+mutation done
+selection done
+Gen:24
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+0
+ratio: 0.000000 stable count: 8
+Time: 40.590000
+mutation done
+selection done
+Gen:25
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1256.01
+ratio: 0.000000 stable count: 9
+Time: 40.200000
+mutation done
+selection done
+Gen:26
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+493.051
+ratio: 0.000000 stable count: 10
+Time: 40.240000
+mutation done
+selection done
+Gen:27
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1037.11
+ratio: 0.000000 stable count: 11
+Time: 40.250000
+mutation done
+selection done
+Gen:28
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+925.436
+ratio: 0.000000 stable count: 12
+Time: 40.060000
+mutation done
+selection done
+Gen:29
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+774.681
+ratio: 0.000000 stable count: 13
+Time: 40.050000
+mutation done
+selection done
+Gen:30
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+0
+ratio: 0.000000 stable count: 14
+Time: 39.910000
+mutation done
+selection done
+Gen:31
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+220
+ratio: 0.000000 stable count: 15
+Time: 39.540000
+mutation done
+selection done
+Gen:32
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1308.76
+ratio: 0.000000 stable count: 16
+Time: 39.020000
+mutation done
+selection done
+Gen:33
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1089.83
+ratio: 0.000000 stable count: 17
+Time: 39.210000
+mutation done
+selection done
+Gen:34
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1340.55
+ratio: 0.000000 stable count: 18
+Time: 38.960000
+mutation done
+selection done
+Gen:35
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1136.9
+ratio: 0.000000 stable count: 19
+Time: 38.740000
+mutation done
+selection done
+Gen:36
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+2049.14
+ratio: 0.000000 stable count: 20
+Time: 39.010000
+mutation done
+selection done
+Gen:37
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1327.06
+ratio: 0.000000 stable count: 21
+Time: 39.100000
+mutation done
+selection done
+Gen:38
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1442.66
+ratio: 0.000000 stable count: 22
+Time: 38.900000
+mutation done
+selection done
+Gen:39
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+604.591
+ratio: 0.000000 stable count: 23
+Time: 39.050000
+mutation done
+selection done
+Gen:40
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1251.33
+ratio: 0.000000 stable count: 24
+Time: 38.650000
+mutation done
+selection done
+Gen:41
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1253.85
+ratio: 0.000000 stable count: 25
+Time: 38.650000
+mutation done
+selection done
+Gen:42
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1778.85
+ratio: 0.000000 stable count: 26
+Time: 38.560000
+mutation done
+selection done
+Gen:43
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1059.59
+ratio: 0.000000 stable count: 27
+Time: 38.710000
+mutation done
+selection done
+Gen:44
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1109.41
+ratio: 0.000000 stable count: 28
+Time: 38.670000
+mutation done
+selection done
+Gen:45
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1164.29
+ratio: 0.000000 stable count: 29
+Time: 38.620000
+mutation done
+selection done
+Gen:46
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1269.37
+ratio: 0.000000 stable count: 30
+Time: 38.480000
+mutation done
+selection done
+Gen:47
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1363.19
+ratio: 0.000000 stable count: 31
+Time: 38.760000
+mutation done
+selection done
+Gen:48
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1822.85
+ratio: 0.000000 stable count: 32
+Time: 38.610000
+mutation done
+selection done
+Gen:49
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+908.182
+ratio: 0.000000 stable count: 33
+Time: 38.920000
+mutation done
+selection done
+Gen:50
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1319.25
+ratio: 0.000000 stable count: 34
+Time: 38.620000
+mutation done
+selection done
+Gen:51
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1603
+ratio: 0.000000 stable count: 35
+Time: 38.440000
+mutation done
+selection done
+Gen:52
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1460.59
+ratio: 0.000000 stable count: 36
+Time: 38.490000
+mutation done
+selection done
+Gen:53
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1933.66
+ratio: 0.000000 stable count: 37
+Time: 38.530000
+mutation done
+selection done
+Gen:54
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1343.19
+ratio: 0.000000 stable count: 38
+Time: 38.220000
+mutation done
+selection done
+Gen:55
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+371.189
+ratio: 0.000000 stable count: 39
+Time: 38.040000
+mutation done
+selection done
+Gen:56
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1123.82
+ratio: 0.000000 stable count: 40
+Time: 37.910000
+mutation done
+selection done
+Gen:57
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1780.56
+ratio: 0.000000 stable count: 41
+Time: 37.730000
+mutation done
+selection done
+Gen:58
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+626
+ratio: 0.000000 stable count: 42
+Time: 37.290000
+mutation done
+selection done
+Gen:59
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+12
+ratio: 0.000000 stable count: 43
+Time: 37.280000
+mutation done
+selection done
+Gen:60
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1326
+ratio: 0.000000 stable count: 44
+Time: 36.900000
+mutation done
+selection done
+Gen:61
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1624.01
+ratio: 0.000000 stable count: 45
+Time: 37.180000
+mutation done
+selection done
+Gen:62
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+302.103
+ratio: 0.000000 stable count: 46
+Time: 37.580000
+mutation done
+selection done
+Gen:63
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+402
+ratio: 0.000000 stable count: 47
+Time: 37.380000
+mutation done
+selection done
+Gen:64
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1668.59
+ratio: 0.000000 stable count: 48
+Time: 38.250000
+mutation done
+selection done
+Gen:65
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+0
+ratio: 0.000000 stable count: 49
+Time: 37.120000
+mutation done
+selection done
+Gen:66
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1626.2
+ratio: 0.000000 stable count: 50
+Time: 37.110000
+mutation done
+selection done
+Gen:67
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1712.14
+ratio: 0.000000 stable count: 51
+Time: 36.950000
+mutation done
+selection done
+Gen:68
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+0
+ratio: 0.000000 stable count: 52
+Time: 36.640000
+mutation done
+selection done
+Gen:69
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+2227.78
+ratio: 0.000000 stable count: 53
+Time: 37.250000
+mutation done
+selection done
+Gen:70
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+135
+ratio: 0.000000 stable count: 54
+Time: 37.410000
+mutation done
+selection done
+Gen:71
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1188
+ratio: 0.000000 stable count: 55
+Time: 38.160000
+mutation done
+selection done
+Gen:72
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+2040.1
+ratio: 0.000000 stable count: 56
+Time: 38.490000
+mutation done
+selection done
+Gen:73
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1878.18
+ratio: 0.000000 stable count: 57
+Time: 38.740000
+mutation done
+selection done
+Gen:74
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+347.55
+ratio: 0.000000 stable count: 58
+Time: 38.440000
+mutation done
+selection done
+Gen:75
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+2143.07
+ratio: 0.000000 stable count: 59
+Time: 35.890000
+mutation done
+selection done
+Gen:76
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+159
+ratio: 0.000000 stable count: 60
+Time: 38.850000
+mutation done
+selection done
+Gen:77
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+2442.81
+ratio: 0.000000 stable count: 61
+Time: 41.990000
+mutation done
+selection done
+Gen:78
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1562.19
+ratio: 0.000000 stable count: 62
+Time: 36.580000
+mutation done
+selection done
+Gen:79
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+689.329
+ratio: 0.000000 stable count: 63
+Time: 36.280000
+mutation done
+selection done
+Gen:80
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+1672.76
+ratio: 0.000000 stable count: 64
+Time: 36.790000
+mutation done
+selection done
+Gen:81
+0
+0 0 0 0 0 0 0 0 0 0 
+0.50764,0.484043,0.00831702,0,22.713,-2.18746e+07
+262
+ratio: 0.000000 stable count: 65
+Time: 38.150000
+mutation done
+selection done
+Gen:82
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521205,0.465665,0.0131297,0,22.6538,-2.18175e+07
+0
+Time: 37.600000
+mutation done
+selection done
+Gen:83
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521205,0.465665,0.0131297,0,22.6538,-2.18175e+07
+17408.6
+ratio: 0.000000 stable count: 65
+Time: 40.150000
+mutation done
+selection done
+Gen:84
+0
+0 0 0 0 0 0 0 0 0 0 
+0.524009,0.464798,0.0111932,0,22.6126,-2.17779e+07
+2678.82
+Time: 42.190000
+mutation done
+selection done
+Gen:85
+0
+0 0 0 0 0 0 0 0 0 0 
+0.516694,0.471438,0.0118681,0,22.5719,-2.17387e+07
+14778.9
+Time: 41.250000
+mutation done
+selection done
+Gen:86
+0
+0 0 0 0 0 0 0 0 0 0 
+0.516694,0.471438,0.0118681,0,22.5719,-2.17387e+07
+18525.1
+ratio: 0.000000 stable count: 64
+Time: 41.430000
+mutation done
+selection done
+Gen:87
+0
+0 0 0 0 0 0 0 0 0 0 
+0.515915,0.472684,0.0114009,0,22.5423,-2.17101e+07
+664
+Time: 42.450000
+mutation done
+selection done
+Gen:88
+0
+0 0 0 0 0 0 0 0 0 0 
+0.513112,0.476661,0.0102276,0,22.5141,-2.16829e+07
+13090.1
+Time: 42.230000
+mutation done
+selection done
+Gen:89
+0
+0 0 0 0 0 0 0 0 0 0 
+0.508865,0.485632,0.00550315,0,22.473,-2.16434e+07
+11157.6
+Time: 40.200000
+mutation done
+selection done
+Gen:90
+0
+0 0 0 0 0 0 0 0 0 0 
+0.510038,0.482694,0.00726831,0,22.4553,-2.16263e+07
+18000.6
+Time: 40.220000
+mutation done
+selection done
+Gen:91
+0
+0 0 0 0 0 0 0 0 0 0 
+0.510038,0.482694,0.00726831,0,22.4553,-2.16263e+07
+6400.74
+ratio: 0.000000 stable count: 61
+Time: 40.330000
+mutation done
+selection done
+Gen:92
+0
+0 0 0 0 0 0 0 0 0 0 
+0.510038,0.482694,0.00726831,0,22.4553,-2.16263e+07
+0
+ratio: 0.000000 stable count: 62
+Time: 39.420000
+mutation done
+selection done
+Gen:93
+0
+0 0 0 0 0 0 0 0 0 0 
+0.51104,0.479973,0.00898675,0,22.45,-2.16213e+07
+0
+Time: 39.390000
+mutation done
+selection done
+Gen:94
+0
+0 0 0 0 0 0 0 0 0 0 
+0.51104,0.479973,0.00898675,0,22.45,-2.16213e+07
+2429.56
+ratio: 0.000000 stable count: 62
+Time: 41.360000
+mutation done
+selection done
+Gen:95
+0
+0 0 0 0 0 0 0 0 0 0 
+0.511897,0.479117,0.00898675,0,22.4476,-2.16189e+07
+1339.3
+Time: 39.220000
+mutation done
+selection done
+Gen:96
+0
+0 0 0 0 0 0 0 0 0 0 
+0.511897,0.479117,0.00898675,0,22.4476,-2.16189e+07
+2585.38
+ratio: 0.000000 stable count: 62
+Time: 39.280000
+mutation done
+selection done
+Gen:97
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+1860.73
+Time: 40.220000
+mutation done
+selection done
+Gen:98
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+22159.6
+ratio: 0.000000 stable count: 62
+Time: 40.240000
+mutation done
+selection done
+Gen:99
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+1269.39
+ratio: 0.000000 stable count: 63
+Time: 37.550000
+mutation done
+selection done
+Gen:100
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+1741.87
+ratio: 0.000000 stable count: 64
+Time: 37.360000
+mutation done
+selection done
+Gen:101
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+659.777
+ratio: 0.000000 stable count: 65
+Time: 37.420000
+mutation done
+selection done
+Gen:102
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+1805.04
+ratio: 0.000000 stable count: 66
+Time: 39.500000
+mutation done
+selection done
+Gen:103
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+1503.52
+ratio: 0.000000 stable count: 67
+Time: 39.930000
+mutation done
+selection done
+Gen:104
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+866.893
+ratio: 0.000000 stable count: 68
+Time: 38.390000
+mutation done
+selection done
+Gen:105
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+459
+ratio: 0.000000 stable count: 69
+Time: 38.280000
+mutation done
+selection done
+Gen:106
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+943.404
+ratio: 0.000000 stable count: 70
+Time: 37.420000
+mutation done
+selection done
+Gen:107
+0
+0 0 0 0 0 0 0 0 0 0 
+0.521262,0.470234,0.00850392,0,22.3925,-2.15659e+07
+1519.37
+ratio: 0.000000 stable count: 71
+Time: 36.380000
+mutation done
+selection done
+Gen:108
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2804.14
+Time: 36.500000
+mutation done
+selection done
+Gen:109
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+5176.97
+ratio: 0.000000 stable count: 71
+Time: 36.900000
+mutation done
+selection done
+Gen:110
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+576.351
+ratio: 0.000000 stable count: 72
+Time: 36.470000
+mutation done
+selection done
+Gen:111
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1319.84
+ratio: 0.000000 stable count: 73
+Time: 37.010000
+mutation done
+selection done
+Gen:112
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1674.79
+ratio: 0.000000 stable count: 74
+Time: 36.350000
+mutation done
+selection done
+Gen:113
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1529.48
+ratio: 0.000000 stable count: 75
+Time: 36.390000
+mutation done
+selection done
+Gen:114
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+462.056
+ratio: 0.000000 stable count: 76
+Time: 36.010000
+mutation done
+selection done
+Gen:115
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1585.87
+ratio: 0.000000 stable count: 77
+Time: 36.220000
+mutation done
+selection done
+Gen:116
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2004.35
+ratio: 0.000000 stable count: 78
+Time: 36.580000
+mutation done
+selection done
+Gen:117
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1859.06
+ratio: 0.000000 stable count: 79
+Time: 36.930000
+mutation done
+selection done
+Gen:118
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1112.01
+ratio: 0.000000 stable count: 80
+Time: 35.780000
+mutation done
+selection done
+Gen:119
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1192.5
+ratio: 0.000000 stable count: 81
+Time: 36.580000
+mutation done
+selection done
+Gen:120
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1555.69
+ratio: 0.000000 stable count: 82
+Time: 36.120000
+mutation done
+selection done
+Gen:121
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1640.8
+ratio: 0.000000 stable count: 83
+Time: 36.210000
+mutation done
+selection done
+Gen:122
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1576.98
+ratio: 0.000000 stable count: 84
+Time: 35.750000
+mutation done
+selection done
+Gen:123
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1734.29
+ratio: 0.000000 stable count: 85
+Time: 35.750000
+mutation done
+selection done
+Gen:124
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1886.78
+ratio: 0.000000 stable count: 86
+Time: 35.440000
+mutation done
+selection done
+Gen:125
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1575.02
+ratio: 0.000000 stable count: 87
+Time: 35.570000
+mutation done
+selection done
+Gen:126
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1473.3
+ratio: 0.000000 stable count: 88
+Time: 35.480000
+mutation done
+selection done
+Gen:127
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1575.02
+ratio: 0.000000 stable count: 89
+Time: 35.340000
+mutation done
+selection done
+Gen:128
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1948.9
+ratio: 0.000000 stable count: 90
+Time: 35.570000
+mutation done
+selection done
+Gen:129
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+3139.12
+ratio: 0.000000 stable count: 91
+Time: 35.850000
+mutation done
+selection done
+Gen:130
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1959.89
+ratio: 0.000000 stable count: 92
+Time: 37.000000
+mutation done
+selection done
+Gen:131
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+360
+ratio: 0.000000 stable count: 93
+Time: 37.500000
+mutation done
+selection done
+Gen:132
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+536
+ratio: 0.000000 stable count: 94
+Time: 37.840000
+mutation done
+selection done
+Gen:133
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1008.24
+ratio: 0.000000 stable count: 95
+Time: 36.320000
+mutation done
+selection done
+Gen:134
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+670
+ratio: 0.000000 stable count: 96
+Time: 37.280000
+mutation done
+selection done
+Gen:135
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+918.559
+ratio: 0.000000 stable count: 97
+Time: 35.970000
+mutation done
+selection done
+Gen:136
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2190.84
+ratio: 0.000000 stable count: 98
+Time: 35.630000
+mutation done
+selection done
+Gen:137
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1056.61
+ratio: 0.000000 stable count: 99
+Time: 34.500000
+mutation done
+selection done
+Gen:138
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1621.5
+ratio: 0.000000 stable count: 100
+Time: 34.580000
+mutation done
+selection done
+Gen:139
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1552.5
+ratio: 0.000000 stable count: 101
+Time: 35.390000
+mutation done
+selection done
+Gen:140
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2371.48
+ratio: 0.000000 stable count: 102
+Time: 35.900000
+mutation done
+selection done
+Gen:141
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1552.5
+ratio: 0.000000 stable count: 103
+Time: 33.990000
+mutation done
+selection done
+Gen:142
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2633.26
+ratio: 0.000000 stable count: 104
+Time: 34.280000
+mutation done
+selection done
+Gen:143
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2493.14
+ratio: 0.000000 stable count: 105
+Time: 36.740000
+mutation done
+selection done
+Gen:144
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+241.5
+ratio: 0.000000 stable count: 106
+Time: 35.200000
+mutation done
+selection done
+Gen:145
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2162
+ratio: 0.000000 stable count: 107
+Time: 34.020000
+mutation done
+selection done
+Gen:146
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2270.1
+ratio: 0.000000 stable count: 108
+Time: 34.170000
+mutation done
+selection done
+Gen:147
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+460.882
+ratio: 0.000000 stable count: 109
+Time: 34.320000
+mutation done
+selection done
+Gen:148
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2638.6
+ratio: 0.000000 stable count: 110
+Time: 33.690000
+mutation done
+selection done
+Gen:149
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2578.25
+ratio: 0.000000 stable count: 111
+Time: 33.750000
+mutation done
+selection done
+Gen:150
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2825.72
+ratio: 0.000000 stable count: 112
+Time: 34.180000
+mutation done
+selection done
+Gen:151
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2935.36
+ratio: 0.000000 stable count: 113
+Time: 33.510000
+mutation done
+selection done
+Gen:152
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2637.45
+ratio: 0.000000 stable count: 114
+Time: 34.680000
+mutation done
+selection done
+Gen:153
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2822.68
+ratio: 0.000000 stable count: 115
+Time: 33.300000
+mutation done
+selection done
+Gen:154
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+77.5
+ratio: 0.000000 stable count: 116
+Time: 33.750000
+mutation done
+selection done
+Gen:155
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1707.9
+ratio: 0.000000 stable count: 117
+Time: 33.180000
+mutation done
+selection done
+Gen:156
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2725.58
+ratio: 0.000000 stable count: 118
+Time: 33.190000
+mutation done
+selection done
+Gen:157
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2540.76
+ratio: 0.000000 stable count: 119
+Time: 33.550000
+mutation done
+selection done
+Gen:158
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+206.121
+ratio: 0.000000 stable count: 120
+Time: 33.260000
+mutation done
+selection done
+Gen:159
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+183.712
+ratio: 0.000000 stable count: 121
+Time: 33.260000
+mutation done
+selection done
+Gen:160
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2914.58
+ratio: 0.000000 stable count: 122
+Time: 33.810000
+mutation done
+selection done
+Gen:161
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+183.712
+ratio: 0.000000 stable count: 123
+Time: 33.970000
+mutation done
+selection done
+Gen:162
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2855.56
+ratio: 0.000000 stable count: 124
+Time: 33.250000
+mutation done
+selection done
+Gen:163
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+635.549
+ratio: 0.000000 stable count: 125
+Time: 33.880000
+mutation done
+selection done
+Gen:164
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2615.6
+ratio: 0.000000 stable count: 126
+Time: 33.540000
+mutation done
+selection done
+Gen:165
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1759.96
+ratio: 0.000000 stable count: 127
+Time: 32.660000
+mutation done
+selection done
+Gen:166
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1597.5
+ratio: 0.000000 stable count: 128
+Time: 32.730000
+mutation done
+selection done
+Gen:167
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2737.1
+ratio: 0.000000 stable count: 129
+Time: 32.740000
+mutation done
+selection done
+Gen:168
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+91.766
+ratio: 0.000000 stable count: 130
+Time: 32.580000
+mutation done
+selection done
+Gen:169
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2654.74
+ratio: 0.000000 stable count: 131
+Time: 32.240000
+mutation done
+selection done
+Gen:170
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+488.545
+ratio: 0.000000 stable count: 132
+Time: 32.700000
+mutation done
+selection done
+Gen:171
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2874.13
+ratio: 0.000000 stable count: 133
+Time: 32.470000
+mutation done
+selection done
+Gen:172
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2457.44
+ratio: 0.000000 stable count: 134
+Time: 32.110000
+mutation done
+selection done
+Gen:173
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1528.64
+ratio: 0.000000 stable count: 135
+Time: 32.320000
+mutation done
+selection done
+Gen:174
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2499.77
+ratio: 0.000000 stable count: 136
+Time: 32.130000
+mutation done
+selection done
+Gen:175
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2451.85
+ratio: 0.000000 stable count: 137
+Time: 32.310000
+mutation done
+selection done
+Gen:176
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1525.94
+ratio: 0.000000 stable count: 138
+Time: 32.060000
+mutation done
+selection done
+Gen:177
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+398.202
+ratio: 0.000000 stable count: 139
+Time: 31.630000
+mutation done
+selection done
+Gen:178
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1683.02
+ratio: 0.000000 stable count: 140
+Time: 31.980000
+mutation done
+selection done
+Gen:179
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2130
+ratio: 0.000000 stable count: 141
+Time: 31.810000
+mutation done
+selection done
+Gen:180
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2070.1
+ratio: 0.000000 stable count: 142
+Time: 31.640000
+mutation done
+selection done
+Gen:181
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+878.46
+ratio: 0.000000 stable count: 143
+Time: 32.110000
+mutation done
+selection done
+Gen:182
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+867.318
+ratio: 0.000000 stable count: 144
+Time: 31.910000
+mutation done
+selection done
+Gen:183
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2568.83
+ratio: 0.000000 stable count: 145
+Time: 31.810000
+mutation done
+selection done
+Gen:184
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1822.06
+ratio: 0.000000 stable count: 146
+Time: 31.690000
+mutation done
+selection done
+Gen:185
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2171.96
+ratio: 0.000000 stable count: 147
+Time: 31.690000
+mutation done
+selection done
+Gen:186
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2581.37
+ratio: 0.000000 stable count: 148
+Time: 32.740000
+mutation done
+selection done
+Gen:187
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+3129.79
+ratio: 0.000000 stable count: 149
+Time: 33.470000
+mutation done
+selection done
+Gen:188
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2537.87
+ratio: 0.000000 stable count: 150
+Time: 32.550000
+mutation done
+selection done
+Gen:189
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+3518.97
+ratio: 0.000000 stable count: 151
+Time: 33.120000
+mutation done
+selection done
+Gen:190
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2205.74
+ratio: 0.000000 stable count: 152
+Time: 32.870000
+mutation done
+selection done
+Gen:191
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+346
+ratio: 0.000000 stable count: 153
+Time: 33.840000
+mutation done
+selection done
+Gen:192
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1715
+ratio: 0.000000 stable count: 154
+Time: 33.320000
+mutation done
+selection done
+Gen:193
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1839.35
+ratio: 0.000000 stable count: 155
+Time: 34.100000
+mutation done
+selection done
+Gen:194
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2203.13
+ratio: 0.000000 stable count: 156
+Time: 32.530000
+mutation done
+selection done
+Gen:195
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2768.92
+ratio: 0.000000 stable count: 157
+Time: 34.030000
+mutation done
+selection done
+Gen:196
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2764.41
+ratio: 0.000000 stable count: 158
+Time: 33.220000
+mutation done
+selection done
+Gen:197
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+621.349
+ratio: 0.000000 stable count: 159
+Time: 33.980000
+mutation done
+selection done
+Gen:198
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2219.62
+ratio: 0.000000 stable count: 160
+Time: 32.770000
+mutation done
+selection done
+Gen:199
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+1539
+ratio: 0.000000 stable count: 161
+Time: 33.850000
+mutation done
+selection done
+Gen:200
+0
+0 0 0 0 0 0 0 0 0 0 
+0.519627,0.471869,0.00850392,0,22.391,-2.15645e+07
+2739.32
+ratio: 0.000000 stable count: 162
+Time: 33.310000
+FINAL Population size
+10
+Best : -2.15645e+07   26:23-69-19-36-41-35-6-21-30-26-8-51-58-33-22-38-66-29-48-39-18-67-27-12-40-46- ,  29:40-12-41-58-33-43-61-60-17-50-23-29-19-22-13-20-10-59-11-1-26-8-51-34-45-36-54-18-39- ,  30:24-30-26-1-68-59-17-61-14-2-50-43-20-55-16-9-31-11-15-62-21-6-47-53-4-25-41-36-38-3- ,  28:32-18-38-22-33-43-20-55-8-56-6-47-7-4-25-41-36-19-66-69-23-50-17-59-1-49-62-24- ,  20:44-17-20-52-64-58-41-12-25-34-51-8-28-10-16-1-31-11-15-30- ,  30:11-9-17-20-33-22-19-36-41-51-8-26-30-42-24-63-6-35-34-25-27-67-65-18-66-69-23-50-43-61- ,  30:7-47-6-56-8-26-1-31-11-59-10-52-64-51-57-41-36-54-65-5-18-69-23-50-33-58-34-25-4-53- ,  30:34-51-8-55-17-50-0-3-38-36-41-35-6-21-62-26-16-10-20-33-22-19-18-37-67-27-25-4-7-47- ,  26:27-41-45-58-64-52-10-59-68-9-17-50-23-3-48-39-18-38-22-33-20-55-16-26-49-42- ,  29:37-18-69-0-2-14-44-61-43-33-22-19-54-5-67-27-41-51-8-10-59-17-20-52-64-35-57-25-12- ,  28:57-35-6-63-30-26-1-59-17-20-33-22-38-18-32-54-36-45-58-64-52-55-16-9-49-42-15-11- ,  20:19-36-41-51-56-6-35-64-52-8-26-49-1-59-17-60-61-43-13-50- ,  27:0-69-18-65-39-48-3-23-2-50-33-58-41-12-40-47-6-63-30-15-49-26-8-51-57-25-27- ,  24:54-19-69-38-22-33-58-35-6-63-24-30-26-16-10-17-50-0-3-48-39-32-5-37- ,  26:32-54-36-41-57-58-33-50-2-14-61-17-10-28-56-6-47-53-46-7-4-25-34-45-22-13- , 
+
+0.519627
+0.471869
+0.00850392
+0
+22.391
+-2.15645e+07
+mutation constructed
+Initial : -2.23361e+07
+0.45834
+0.499001
+0.0413411
+0.00131868
+23.1314
+
+-----------------------------------------
+Iteration:0 started
+
+mutation done
+selection done
+Gen:0
+0
+0 1 2 3 4 5 6 7 8 9 
+0.461107,0.497921,0.0409725,0,23.0632,-2.22119e+07
+908598
+Time: 35.110000
+mutation done
+selection done
+Gen:1
+0
+0 0 0 0 0 0 0 0 0 0 
+0.468012,0.502676,0.0290473,0.000264774,22.9489,-2.21135e+07
+47155.6
+Time: 38.400000
+mutation done
+selection done
+Gen:2
+0
+0 0 0 0 0 0 0 0 0 0 
+0.479449,0.494936,0.0253508,0.000264774,22.8657,-2.20334e+07
+16142
+Time: 37.030000
+mutation done
+selection done
+Gen:3
+0
+0 0 0 0 0 0 0 0 0 0 
+0.484537,0.490502,0.0246967,0.000264774,22.8457,-2.20142e+07
+23195.7
+Time: 37.410000
+mutation done
+selection done
+Gen:4
+0
+0 0 0 0 0 0 0 0 0 0 
+0.497557,0.47974,0.0227031,0,22.8187,-2.19764e+07
+6783.64
+Time: 37.350000
+mutation done
+selection done
+Gen:5
+0
+0 0 0 0 0 0 0 0 0 0 
+0.497557,0.47974,0.0227031,0,22.8187,-2.19764e+07
+14506.7
+ratio: 0.000000 stable count: 1
+Time: 38.920000
+mutation done
+selection done
+Gen:6
+0
+0 0 0 0 0 0 0 0 0 0 
+0.49708,0.480259,0.0226616,0,22.7815,-2.19405e+07
+1802.82
+Time: 40.010000
+mutation done
+selection done
+Gen:7
+0
+0 0 0 0 0 0 0 0 0 0 
+0.496202,0.481884,0.021914,0,22.7685,-2.1928e+07
+14101.4
+Time: 40.260000
+mutation done
+selection done
+Gen:8
+0
+0 0 0 0 0 0 0 0 0 0 
+0.495034,0.485066,0.0198996,0,22.6868,-2.18493e+07
+7224.14
+Time: 39.570000
+mutation done
+selection done
+Gen:9
+0
+0 0 0 0 0 0 0 0 0 0 
+0.499494,0.481001,0.019505,0,22.6501,-2.1814e+07
+38299.3
+Time: 40.870000
+mutation done
+selection done
+Gen:10
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502837,0.477471,0.0196919,0,22.6195,-2.17845e+07
+6768.62
+Time: 38.670000
+mutation done
+selection done
+Gen:11
+0
+0 0 0 0 0 0 0 0 0 0 
+0.513122,0.472066,0.0148118,0,22.546,-2.17138e+07
+9903.67
+Time: 38.370000
+mutation done
+selection done
+Gen:12
+0
+0 0 0 0 0 0 0 0 0 0 
+0.517088,0.469865,0.0130466,0,22.5123,-2.16813e+07
+28292
+Time: 39.370000
+mutation done
+selection done
+Gen:13
+0
+0 0 0 0 0 0 0 0 0 0 
+0.517088,0.469865,0.0130466,0,22.5123,-2.16813e+07
+16222.5
+ratio: 0.000000 stable count: 1
+Time: 40.220000
+mutation done
+selection done
+Gen:14
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+Time: 40.320000
+mutation done
+selection done
+Gen:15
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+930
+ratio: 0.000000 stable count: 1
+Time: 40.040000
+mutation done
+selection done
+Gen:16
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1011.59
+ratio: 0.000000 stable count: 2
+Time: 38.790000
+mutation done
+selection done
+Gen:17
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+779.038
+ratio: 0.000000 stable count: 3
+Time: 38.970000
+mutation done
+selection done
+Gen:18
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 4
+Time: 38.710000
+mutation done
+selection done
+Gen:19
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 5
+Time: 38.490000
+mutation done
+selection done
+Gen:20
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+817.041
+ratio: 0.000000 stable count: 6
+Time: 39.060000
+mutation done
+selection done
+Gen:21
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 7
+Time: 38.700000
+mutation done
+selection done
+Gen:22
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 8
+Time: 39.330000
+mutation done
+selection done
+Gen:23
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+40.5
+ratio: 0.000000 stable count: 9
+Time: 38.240000
+mutation done
+selection done
+Gen:24
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+510
+ratio: 0.000000 stable count: 10
+Time: 38.040000
+mutation done
+selection done
+Gen:25
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+917.011
+ratio: 0.000000 stable count: 11
+Time: 38.090000
+mutation done
+selection done
+Gen:26
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+469.5
+ratio: 0.000000 stable count: 12
+Time: 37.760000
+mutation done
+selection done
+Gen:27
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+625.564
+ratio: 0.000000 stable count: 13
+Time: 37.650000
+mutation done
+selection done
+Gen:28
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+187.5
+ratio: 0.000000 stable count: 14
+Time: 37.310000
+mutation done
+selection done
+Gen:29
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1085.42
+ratio: 0.000000 stable count: 15
+Time: 37.860000
+mutation done
+selection done
+Gen:30
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1139.01
+ratio: 0.000000 stable count: 16
+Time: 37.960000
+mutation done
+selection done
+Gen:31
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1216.18
+ratio: 0.000000 stable count: 17
+Time: 37.160000
+mutation done
+selection done
+Gen:32
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1257.78
+ratio: 0.000000 stable count: 18
+Time: 38.140000
+mutation done
+selection done
+Gen:33
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1005.53
+ratio: 0.000000 stable count: 19
+Time: 40.150000
+mutation done
+selection done
+Gen:34
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+680
+ratio: 0.000000 stable count: 20
+Time: 38.180000
+mutation done
+selection done
+Gen:35
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1200.73
+ratio: 0.000000 stable count: 21
+Time: 37.080000
+mutation done
+selection done
+Gen:36
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+832.827
+ratio: 0.000000 stable count: 22
+Time: 37.000000
+mutation done
+selection done
+Gen:37
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1277.76
+ratio: 0.000000 stable count: 23
+Time: 37.400000
+mutation done
+selection done
+Gen:38
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+850
+ratio: 0.000000 stable count: 24
+Time: 36.750000
+mutation done
+selection done
+Gen:39
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1519.1
+ratio: 0.000000 stable count: 25
+Time: 37.530000
+mutation done
+selection done
+Gen:40
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1649.87
+ratio: 0.000000 stable count: 26
+Time: 37.630000
+mutation done
+selection done
+Gen:41
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1139.01
+ratio: 0.000000 stable count: 27
+Time: 37.950000
+mutation done
+selection done
+Gen:42
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1468.14
+ratio: 0.000000 stable count: 28
+Time: 37.280000
+mutation done
+selection done
+Gen:43
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1257.78
+ratio: 0.000000 stable count: 29
+Time: 37.300000
+mutation done
+selection done
+Gen:44
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1504
+ratio: 0.000000 stable count: 30
+Time: 37.390000
+mutation done
+selection done
+Gen:45
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1626.61
+ratio: 0.000000 stable count: 31
+Time: 37.620000
+mutation done
+selection done
+Gen:46
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1200.37
+ratio: 0.000000 stable count: 32
+Time: 37.660000
+mutation done
+selection done
+Gen:47
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+187.5
+ratio: 0.000000 stable count: 33
+Time: 36.900000
+mutation done
+selection done
+Gen:48
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+938.18
+ratio: 0.000000 stable count: 34
+Time: 37.720000
+mutation done
+selection done
+Gen:49
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1114.11
+ratio: 0.000000 stable count: 35
+Time: 38.060000
+mutation done
+selection done
+Gen:50
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+286.411
+ratio: 0.000000 stable count: 36
+Time: 37.770000
+mutation done
+selection done
+Gen:51
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+187.5
+ratio: 0.000000 stable count: 37
+Time: 37.080000
+mutation done
+selection done
+Gen:52
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 38
+Time: 38.250000
+mutation done
+selection done
+Gen:53
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1942.05
+ratio: 0.000000 stable count: 39
+Time: 38.630000
+mutation done
+selection done
+Gen:54
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+250
+ratio: 0.000000 stable count: 40
+Time: 39.300000
+mutation done
+selection done
+Gen:55
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+938.18
+ratio: 0.000000 stable count: 41
+Time: 40.460000
+mutation done
+selection done
+Gen:56
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1189.03
+ratio: 0.000000 stable count: 42
+Time: 38.980000
+mutation done
+selection done
+Gen:57
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+250
+ratio: 0.000000 stable count: 43
+Time: 41.200000
+mutation done
+selection done
+Gen:58
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1723.05
+ratio: 0.000000 stable count: 44
+Time: 38.590000
+mutation done
+selection done
+Gen:59
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1113.95
+ratio: 0.000000 stable count: 45
+Time: 39.240000
+mutation done
+selection done
+Gen:60
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 46
+Time: 40.930000
+mutation done
+selection done
+Gen:61
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1621.44
+ratio: 0.000000 stable count: 47
+Time: 40.310000
+mutation done
+selection done
+Gen:62
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+36.6606
+ratio: 0.000000 stable count: 48
+Time: 39.290000
+mutation done
+selection done
+Gen:63
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1521.99
+ratio: 0.000000 stable count: 49
+Time: 38.840000
+mutation done
+selection done
+Gen:64
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 50
+Time: 39.450000
+mutation done
+selection done
+Gen:65
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1923.71
+ratio: 0.000000 stable count: 51
+Time: 38.820000
+mutation done
+selection done
+Gen:66
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1065.45
+ratio: 0.000000 stable count: 52
+Time: 38.920000
+mutation done
+selection done
+Gen:67
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+850
+ratio: 0.000000 stable count: 53
+Time: 39.650000
+mutation done
+selection done
+Gen:68
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+779.038
+ratio: 0.000000 stable count: 54
+Time: 37.300000
+mutation done
+selection done
+Gen:69
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+780.961
+ratio: 0.000000 stable count: 55
+Time: 37.630000
+mutation done
+selection done
+Gen:70
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1653.43
+ratio: 0.000000 stable count: 56
+Time: 37.760000
+mutation done
+selection done
+Gen:71
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+672.978
+ratio: 0.000000 stable count: 57
+Time: 37.410000
+mutation done
+selection done
+Gen:72
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+662.458
+ratio: 0.000000 stable count: 58
+Time: 37.560000
+mutation done
+selection done
+Gen:73
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+2290.98
+ratio: 0.000000 stable count: 59
+Time: 37.740000
+mutation done
+selection done
+Gen:74
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 60
+Time: 38.540000
+mutation done
+selection done
+Gen:75
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1600.8
+ratio: 0.000000 stable count: 61
+Time: 38.350000
+mutation done
+selection done
+Gen:76
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 62
+Time: 38.470000
+mutation done
+selection done
+Gen:77
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1060.71
+ratio: 0.000000 stable count: 63
+Time: 38.320000
+mutation done
+selection done
+Gen:78
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1427.57
+ratio: 0.000000 stable count: 64
+Time: 37.790000
+mutation done
+selection done
+Gen:79
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+286.411
+ratio: 0.000000 stable count: 65
+Time: 37.350000
+mutation done
+selection done
+Gen:80
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1512.25
+ratio: 0.000000 stable count: 66
+Time: 38.670000
+mutation done
+selection done
+Gen:81
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+2784.01
+ratio: 0.000000 stable count: 67
+Time: 38.150000
+mutation done
+selection done
+Gen:82
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1427.74
+ratio: 0.000000 stable count: 68
+Time: 37.580000
+mutation done
+selection done
+Gen:83
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 69
+Time: 37.740000
+mutation done
+selection done
+Gen:84
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 70
+Time: 37.540000
+mutation done
+selection done
+Gen:85
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+850
+ratio: 0.000000 stable count: 71
+Time: 36.990000
+mutation done
+selection done
+Gen:86
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1233.49
+ratio: 0.000000 stable count: 72
+Time: 39.300000
+mutation done
+selection done
+Gen:87
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1199.52
+ratio: 0.000000 stable count: 73
+Time: 40.800000
+mutation done
+selection done
+Gen:88
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+286.411
+ratio: 0.000000 stable count: 74
+Time: 37.290000
+mutation done
+selection done
+Gen:89
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1767.24
+ratio: 0.000000 stable count: 75
+Time: 36.770000
+mutation done
+selection done
+Gen:90
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1162.27
+ratio: 0.000000 stable count: 76
+Time: 37.340000
+mutation done
+selection done
+Gen:91
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 77
+Time: 38.100000
+mutation done
+selection done
+Gen:92
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1162.27
+ratio: 0.000000 stable count: 78
+Time: 37.140000
+mutation done
+selection done
+Gen:93
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1812.27
+ratio: 0.000000 stable count: 79
+Time: 36.720000
+mutation done
+selection done
+Gen:94
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1616.66
+ratio: 0.000000 stable count: 80
+Time: 38.220000
+mutation done
+selection done
+Gen:95
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1638.19
+ratio: 0.000000 stable count: 81
+Time: 38.310000
+mutation done
+selection done
+Gen:96
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1672.23
+ratio: 0.000000 stable count: 82
+Time: 37.630000
+mutation done
+selection done
+Gen:97
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+250
+ratio: 0.000000 stable count: 83
+Time: 37.040000
+mutation done
+selection done
+Gen:98
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1548.8
+ratio: 0.000000 stable count: 84
+Time: 37.650000
+mutation done
+selection done
+Gen:99
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1604.88
+ratio: 0.000000 stable count: 85
+Time: 38.050000
+mutation done
+selection done
+Gen:100
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+998.749
+ratio: 0.000000 stable count: 86
+Time: 37.280000
+mutation done
+selection done
+Gen:101
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+892.693
+ratio: 0.000000 stable count: 87
+Time: 37.300000
+mutation done
+selection done
+Gen:102
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1076.17
+ratio: 0.000000 stable count: 88
+Time: 36.780000
+mutation done
+selection done
+Gen:103
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+948.828
+ratio: 0.000000 stable count: 89
+Time: 37.350000
+mutation done
+selection done
+Gen:104
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1751.07
+ratio: 0.000000 stable count: 90
+Time: 38.100000
+mutation done
+selection done
+Gen:105
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1260.46
+ratio: 0.000000 stable count: 91
+Time: 37.310000
+mutation done
+selection done
+Gen:106
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1065.45
+ratio: 0.000000 stable count: 92
+Time: 37.630000
+mutation done
+selection done
+Gen:107
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+998.749
+ratio: 0.000000 stable count: 93
+Time: 36.680000
+mutation done
+selection done
+Gen:108
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1059.85
+ratio: 0.000000 stable count: 94
+Time: 37.440000
+mutation done
+selection done
+Gen:109
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+889.273
+ratio: 0.000000 stable count: 95
+Time: 37.150000
+mutation done
+selection done
+Gen:110
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+817.041
+ratio: 0.000000 stable count: 96
+Time: 37.040000
+mutation done
+selection done
+Gen:111
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1005.53
+ratio: 0.000000 stable count: 97
+Time: 37.140000
+mutation done
+selection done
+Gen:112
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+250
+ratio: 0.000000 stable count: 98
+Time: 37.240000
+mutation done
+selection done
+Gen:113
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1894.31
+ratio: 0.000000 stable count: 99
+Time: 37.150000
+mutation done
+selection done
+Gen:114
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1535
+ratio: 0.000000 stable count: 100
+Time: 37.230000
+mutation done
+selection done
+Gen:115
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1065.45
+ratio: 0.000000 stable count: 101
+Time: 38.260000
+mutation done
+selection done
+Gen:116
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+700.629
+ratio: 0.000000 stable count: 102
+Time: 38.320000
+mutation done
+selection done
+Gen:117
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+832.827
+ratio: 0.000000 stable count: 103
+Time: 36.910000
+mutation done
+selection done
+Gen:118
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+680
+ratio: 0.000000 stable count: 104
+Time: 36.740000
+mutation done
+selection done
+Gen:119
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+187.5
+ratio: 0.000000 stable count: 105
+Time: 37.150000
+mutation done
+selection done
+Gen:120
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1913.63
+ratio: 0.000000 stable count: 106
+Time: 37.270000
+mutation done
+selection done
+Gen:121
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+938.18
+ratio: 0.000000 stable count: 107
+Time: 37.360000
+mutation done
+selection done
+Gen:122
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+780.961
+ratio: 0.000000 stable count: 108
+Time: 37.730000
+mutation done
+selection done
+Gen:123
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+832.827
+ratio: 0.000000 stable count: 109
+Time: 37.010000
+mutation done
+selection done
+Gen:124
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+892.693
+ratio: 0.000000 stable count: 110
+Time: 37.610000
+mutation done
+selection done
+Gen:125
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+983.311
+ratio: 0.000000 stable count: 111
+Time: 37.290000
+mutation done
+selection done
+Gen:126
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1131.69
+ratio: 0.000000 stable count: 112
+Time: 37.500000
+mutation done
+selection done
+Gen:127
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+187.5
+ratio: 0.000000 stable count: 113
+Time: 37.220000
+mutation done
+selection done
+Gen:128
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+187.5
+ratio: 0.000000 stable count: 114
+Time: 36.930000
+mutation done
+selection done
+Gen:129
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1916.6
+ratio: 0.000000 stable count: 115
+Time: 37.660000
+mutation done
+selection done
+Gen:130
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1335.57
+ratio: 0.000000 stable count: 116
+Time: 37.440000
+mutation done
+selection done
+Gen:131
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+2080.67
+ratio: 0.000000 stable count: 117
+Time: 37.020000
+mutation done
+selection done
+Gen:132
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1975.34
+ratio: 0.000000 stable count: 118
+Time: 36.800000
+mutation done
+selection done
+Gen:133
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1850.53
+ratio: 0.000000 stable count: 119
+Time: 37.890000
+mutation done
+selection done
+Gen:134
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1762.37
+ratio: 0.000000 stable count: 120
+Time: 39.050000
+mutation done
+selection done
+Gen:135
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1177.5
+ratio: 0.000000 stable count: 121
+Time: 39.160000
+mutation done
+selection done
+Gen:136
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1104
+ratio: 0.000000 stable count: 122
+Time: 39.160000
+mutation done
+selection done
+Gen:137
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+930
+ratio: 0.000000 stable count: 123
+Time: 38.590000
+mutation done
+selection done
+Gen:138
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1389.02
+ratio: 0.000000 stable count: 124
+Time: 38.450000
+mutation done
+selection done
+Gen:139
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1139.01
+ratio: 0.000000 stable count: 125
+Time: 38.040000
+mutation done
+selection done
+Gen:140
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+998.749
+ratio: 0.000000 stable count: 126
+Time: 37.540000
+mutation done
+selection done
+Gen:141
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1230.1
+ratio: 0.000000 stable count: 127
+Time: 37.250000
+mutation done
+selection done
+Gen:142
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 128
+Time: 36.880000
+mutation done
+selection done
+Gen:143
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+680
+ratio: 0.000000 stable count: 129
+Time: 36.660000
+mutation done
+selection done
+Gen:144
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+850
+ratio: 0.000000 stable count: 130
+Time: 37.010000
+mutation done
+selection done
+Gen:145
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+892.693
+ratio: 0.000000 stable count: 131
+Time: 37.450000
+mutation done
+selection done
+Gen:146
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+998.749
+ratio: 0.000000 stable count: 132
+Time: 37.320000
+mutation done
+selection done
+Gen:147
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1553.71
+ratio: 0.000000 stable count: 133
+Time: 37.430000
+mutation done
+selection done
+Gen:148
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+832.827
+ratio: 0.000000 stable count: 134
+Time: 37.200000
+mutation done
+selection done
+Gen:149
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+510
+ratio: 0.000000 stable count: 135
+Time: 37.060000
+mutation done
+selection done
+Gen:150
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+998.749
+ratio: 0.000000 stable count: 136
+Time: 37.600000
+mutation done
+selection done
+Gen:151
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+998.749
+ratio: 0.000000 stable count: 137
+Time: 37.670000
+mutation done
+selection done
+Gen:152
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+817.041
+ratio: 0.000000 stable count: 138
+Time: 37.290000
+mutation done
+selection done
+Gen:153
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1243.51
+ratio: 0.000000 stable count: 139
+Time: 37.190000
+mutation done
+selection done
+Gen:154
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+929.466
+ratio: 0.000000 stable count: 140
+Time: 37.350000
+mutation done
+selection done
+Gen:155
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+977.574
+ratio: 0.000000 stable count: 141
+Time: 37.840000
+mutation done
+selection done
+Gen:156
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+925.341
+ratio: 0.000000 stable count: 142
+Time: 37.030000
+mutation done
+selection done
+Gen:157
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+667.5
+ratio: 0.000000 stable count: 143
+Time: 36.590000
+mutation done
+selection done
+Gen:158
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1171.58
+ratio: 0.000000 stable count: 144
+Time: 36.700000
+mutation done
+selection done
+Gen:159
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1065.45
+ratio: 0.000000 stable count: 145
+Time: 37.730000
+mutation done
+selection done
+Gen:160
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1257.78
+ratio: 0.000000 stable count: 146
+Time: 37.180000
+mutation done
+selection done
+Gen:161
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+680
+ratio: 0.000000 stable count: 147
+Time: 37.050000
+mutation done
+selection done
+Gen:162
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+510
+ratio: 0.000000 stable count: 148
+Time: 37.200000
+mutation done
+selection done
+Gen:163
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+734.885
+ratio: 0.000000 stable count: 149
+Time: 37.340000
+mutation done
+selection done
+Gen:164
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+876
+ratio: 0.000000 stable count: 150
+Time: 36.830000
+mutation done
+selection done
+Gen:165
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+312.5
+ratio: 0.000000 stable count: 151
+Time: 37.780000
+mutation done
+selection done
+Gen:166
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+962.341
+ratio: 0.000000 stable count: 152
+Time: 37.510000
+mutation done
+selection done
+Gen:167
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 153
+Time: 36.930000
+mutation done
+selection done
+Gen:168
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1666.21
+ratio: 0.000000 stable count: 154
+Time: 36.940000
+mutation done
+selection done
+Gen:169
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+983.311
+ratio: 0.000000 stable count: 155
+Time: 37.280000
+mutation done
+selection done
+Gen:170
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+779.038
+ratio: 0.000000 stable count: 156
+Time: 36.840000
+mutation done
+selection done
+Gen:171
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1053.14
+ratio: 0.000000 stable count: 157
+Time: 37.090000
+mutation done
+selection done
+Gen:172
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 158
+Time: 37.050000
+mutation done
+selection done
+Gen:173
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+832.827
+ratio: 0.000000 stable count: 159
+Time: 37.050000
+mutation done
+selection done
+Gen:174
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+817.041
+ratio: 0.000000 stable count: 160
+Time: 37.480000
+mutation done
+selection done
+Gen:175
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+832.827
+ratio: 0.000000 stable count: 161
+Time: 36.820000
+mutation done
+selection done
+Gen:176
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+7.32422e-05
+ratio: 0.000000 stable count: 162
+Time: 36.770000
+mutation done
+selection done
+Gen:177
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+286.411
+ratio: 0.000000 stable count: 163
+Time: 37.440000
+mutation done
+selection done
+Gen:178
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1471.46
+ratio: 0.000000 stable count: 164
+Time: 37.190000
+mutation done
+selection done
+Gen:179
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1552.42
+ratio: 0.000000 stable count: 165
+Time: 37.150000
+mutation done
+selection done
+Gen:180
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1581.06
+ratio: 0.000000 stable count: 166
+Time: 37.020000
+mutation done
+selection done
+Gen:181
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1139.01
+ratio: 0.000000 stable count: 167
+Time: 37.600000
+mutation done
+selection done
+Gen:182
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1288.37
+ratio: 0.000000 stable count: 168
+Time: 37.190000
+mutation done
+selection done
+Gen:183
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+680
+ratio: 0.000000 stable count: 169
+Time: 37.270000
+mutation done
+selection done
+Gen:184
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+850
+ratio: 0.000000 stable count: 170
+Time: 37.320000
+mutation done
+selection done
+Gen:185
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+780.961
+ratio: 0.000000 stable count: 171
+Time: 37.640000
+mutation done
+selection done
+Gen:186
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+832.827
+ratio: 0.000000 stable count: 172
+Time: 37.010000
+mutation done
+selection done
+Gen:187
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1131.11
+ratio: 0.000000 stable count: 173
+Time: 37.320000
+mutation done
+selection done
+Gen:188
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1061.77
+ratio: 0.000000 stable count: 174
+Time: 38.110000
+mutation done
+selection done
+Gen:189
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1243.51
+ratio: 0.000000 stable count: 175
+Time: 37.480000
+mutation done
+selection done
+Gen:190
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1288.37
+ratio: 0.000000 stable count: 176
+Time: 37.350000
+mutation done
+selection done
+Gen:191
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+779.038
+ratio: 0.000000 stable count: 177
+Time: 37.320000
+mutation done
+selection done
+Gen:192
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+779.038
+ratio: 0.000000 stable count: 178
+Time: 37.000000
+mutation done
+selection done
+Gen:193
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+680
+ratio: 0.000000 stable count: 179
+Time: 36.720000
+mutation done
+selection done
+Gen:194
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+840.123
+ratio: 0.000000 stable count: 180
+Time: 37.000000
+mutation done
+selection done
+Gen:195
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+819.714
+ratio: 0.000000 stable count: 181
+Time: 37.540000
+mutation done
+selection done
+Gen:196
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 182
+Time: 37.550000
+mutation done
+selection done
+Gen:197
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+306.186
+ratio: 0.000000 stable count: 183
+Time: 37.600000
+mutation done
+selection done
+Gen:198
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+1959.19
+ratio: 0.000000 stable count: 184
+Time: 37.300000
+mutation done
+selection done
+Gen:199
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+405.193
+ratio: 0.000000 stable count: 185
+Time: 38.020000
+mutation done
+selection done
+Gen:200
+0
+0 0 0 0 0 0 0 0 0 0 
+0.509592,0.477481,0.0129272,0,22.5099,-2.1679e+07
+2019.98
+ratio: 0.000000 stable count: 186
+Time: 38.910000
+FINAL Population size
+10
+Best : -2.1679e+07   30:11-9-17-50-23-69-19-36-41-35-6-21-30-26-8-51-58-33-22-38-66-29-48-39-18-67-27-12-40-46- ,  30:19-36-41-51-56-8-52-20-43-50-0-69-18-65-39-48-29-23-2-14-60-17-10-16-26-30-63-6-47-40- ,  30:68-11-15-30-63-6-47-40-12-41-51-8-26-62-21-24-42-49-1-16-10-52-64-35-57-25-4-7-46-53- ,  30:32-54-38-22-13-43-33-58-41-12-40-46-7-4-25-27-67-37-65-39-18-19-36-45-34-51-8-26-49-15- ,  25:0-50-17-10-16-26-30-24-63-6-35-58-33-43-61-44-14-2-23-69-38-36-41-12-40- ,  29:34-51-8-55-16-26-30-63-6-35-41-36-38-66-69-23-50-17-9-49-62-24-42-15-11-59-10-20-13- ,  19:7-47-6-56-8-26-1-31-9-17-61-14-2-50-43-20-10-59-68- ,  23:24-63-6-35-41-27-67-5-54-19-22-33-20-17-9-1-26-8-51-34-25-4-40- ,  29:58-64-52-10-59-68-9-17-50-23-3-48-39-18-19-22-33-20-55-16-1-26-8-51-41-36-38-69-29- ,  30:33-20-17-44-14-2-0-69-18-37-67-27-41-51-8-26-62-21-6-35-58-45-36-38-3-23-50-43-61-60- ,  29:57-41-36-54-65-19-22-33-20-10-16-26-49-42-24-63-6-35-34-25-27-67-18-69-23-50-17-59-68- ,  29:60-17-20-52-64-58-45-36-54-18-37-67-27-25-4-7-47-6-63-30-26-16-9-59-10-8-56-51-35- ,  29:43-17-44-14-2-50-13-22-45-41-12-25-34-51-8-28-10-16-1-31-11-15-30-63-6-35-64-52-20- ,  25:53-4-12-41-36-38-69-0-3-66-54-5-65-39-48-29-19-22-33-58-35-6-47-7-46- ,  26:32-54-36-41-57-58-33-50-2-14-61-17-10-28-56-6-47-53-46-7-4-25-34-45-22-13- , 
+
+0.509592
+0.477481
+0.0129272
+0
+22.5099
+-2.1679e+07
+mutation constructed
+Initial : -2.23361e+07
+0.45834
+0.499001
+0.0413411
+0.00131868
+23.1314
+
+-----------------------------------------
+Iteration:0 started
+
+mutation done
+selection done
+Gen:0
+0
+0 1 2 3 4 5 6 7 8 9 
+0.456055,0.5151,0.02858,0.000264774,23.0526,-2.22134e+07
+908598
+Time: 32.690000
+mutation done
+selection done
+Gen:1
+0
+0 0 0 0 0 0 0 0 0 0 
+0.46782,0.504234,0.0276819,0.000264774,22.9747,-2.21384e+07
+39208.2
+Time: 34.120000
+mutation done
+selection done
+Gen:2
+0
+0 0 0 0 0 0 0 0 0 0 
+0.478727,0.50048,0.0207926,0,22.8878,-2.20429e+07
+12613.5
+Time: 34.630000
+mutation done
+selection done
+Gen:3
+0
+0 0 0 0 0 0 0 0 0 0 
+0.483727,0.4964,0.0198736,0,22.8833,-2.20385e+07
+21132.8
+Time: 36.180000
+mutation done
+selection done
+Gen:4
+0
+0 0 0 0 0 0 0 0 0 0 
+0.487371,0.487574,0.0247901,0.000264774,22.8023,-2.19724e+07
+1864.09
+Time: 36.280000
+mutation done
+selection done
+Gen:5
+0
+0 0 0 0 0 0 0 0 0 0 
+0.499271,0.476235,0.0244942,0,22.7803,-2.19394e+07
+28470.1
+Time: 37.320000
+mutation done
+selection done
+Gen:6
+0
+0 0 0 0 0 0 0 0 0 0 
+0.499271,0.476235,0.0244942,0,22.7803,-2.19394e+07
+9911.62
+ratio: 0.000000 stable count: 1
+Time: 38.040000
+mutation done
+selection done
+Gen:7
+0
+0 0 0 0 0 0 0 0 0 0 
+0.499271,0.476235,0.0244942,0,22.7803,-2.19394e+07
+-nan
+ratio: 0.000000 stable count: 2
+Time: 37.940000
+mutation done
+selection done
+Gen:8
+0
+0 0 0 0 0 0 0 0 0 0 
+0.499271,0.476235,0.0244942,0,22.7803,-2.19394e+07
+-nan
+ratio: 0.000000 stable count: 3
+Time: 38.130000
+mutation done
+selection done
+Gen:9
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+Time: 38.040000
+mutation done
+selection done
+Gen:10
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+4401.95
+ratio: 0.000000 stable count: 3
+Time: 38.560000
+mutation done
+selection done
+Gen:11
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+ratio: 0.000000 stable count: 4
+Time: 38.670000
+mutation done
+selection done
+Gen:12
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+ratio: 0.000000 stable count: 5
+Time: 38.530000
+mutation done
+selection done
+Gen:13
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+ratio: 0.000000 stable count: 6
+Time: 38.490000
+mutation done
+selection done
+Gen:14
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+ratio: 0.000000 stable count: 7
+Time: 38.480000
+mutation done
+selection done
+Gen:15
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+ratio: 0.000000 stable count: 8
+Time: 38.130000
+mutation done
+selection done
+Gen:16
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+ratio: 0.000000 stable count: 9
+Time: 38.170000
+mutation done
+selection done
+Gen:17
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+-nan
+ratio: 0.000000 stable count: 10
+Time: 38.160000
+mutation done
+selection done
+Gen:18
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502147,0.476308,0.0215453,0,22.7689,-2.19284e+07
+592
+ratio: 0.000000 stable count: 11
+Time: 38.360000
+mutation done
+selection done
+Gen:19
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502209,0.47554,0.0222514,0,22.7114,-2.1873e+07
+725.049
+Time: 38.200000
+mutation done
+selection done
+Gen:20
+0
+0 0 0 0 0 0 0 0 0 0 
+0.506996,0.473442,0.0195621,0,22.7019,-2.18639e+07
+25623.7
+Time: 38.040000
+mutation done
+selection done
+Gen:21
+0
+0 0 0 0 0 0 0 0 0 0 
+0.501648,0.47771,0.020642,0,22.6983,-2.18604e+07
+3761.89
+Time: 37.790000
+mutation done
+selection done
+Gen:22
+0
+0 0 0 0 0 0 0 0 0 0 
+0.503953,0.47637,0.0196764,0,22.6793,-2.18421e+07
+3302.52
+Time: 38.810000
+mutation done
+selection done
+Gen:23
+0
+0 0 0 0 0 0 0 0 0 0 
+0.503782,0.479573,0.0166444,0,22.6323,-2.17968e+07
+9417.53
+Time: 38.610000
+mutation done
+selection done
+Gen:24
+0
+0 0 0 0 0 0 0 0 0 0 
+0.503782,0.479573,0.0166444,0,22.6323,-2.17968e+07
+18446.6
+ratio: 0.000000 stable count: 7
+Time: 38.250000
+mutation done
+selection done
+Gen:25
+0
+0 0 0 0 0 0 0 0 0 0 
+0.500652,0.481749,0.0175997,0,22.6303,-2.1795e+07
+1494.73
+Time: 39.390000
+mutation done
+selection done
+Gen:26
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+1746.46
+Time: 39.570000
+mutation done
+selection done
+Gen:27
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+8077.24
+ratio: 0.000000 stable count: 6
+Time: 40.150000
+mutation done
+selection done
+Gen:28
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+744.669
+ratio: 0.000000 stable count: 7
+Time: 39.650000
+mutation done
+selection done
+Gen:29
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+687.855
+ratio: 0.000000 stable count: 8
+Time: 39.670000
+mutation done
+selection done
+Gen:30
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+487.5
+ratio: 0.000000 stable count: 9
+Time: 39.510000
+mutation done
+selection done
+Gen:31
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+650
+ratio: 0.000000 stable count: 10
+Time: 39.370000
+mutation done
+selection done
+Gen:32
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+487.5
+ratio: 0.000000 stable count: 11
+Time: 39.440000
+mutation done
+selection done
+Gen:33
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+9.68903e-05
+ratio: 0.000000 stable count: 12
+Time: 39.170000
+mutation done
+selection done
+Gen:34
+0
+0 0 0 0 0 0 0 0 0 0 
+0.502334,0.482117,0.015549,0,22.6085,-2.17739e+07
+633.754
+ratio: 0.000000 stable count: 13
+Time: 39.080000
+mutation done
+selection done
+Gen:35
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+105.399
+Time: 38.940000
+mutation done
+selection done
+Gen:36
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1423.69
+ratio: 0.000000 stable count: 13
+Time: 38.840000
+mutation done
+selection done
+Gen:37
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1015.04
+ratio: 0.000000 stable count: 14
+Time: 38.630000
+mutation done
+selection done
+Gen:38
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1307.88
+ratio: 0.000000 stable count: 15
+Time: 38.660000
+mutation done
+selection done
+Gen:39
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1812.41
+ratio: 0.000000 stable count: 16
+Time: 38.760000
+mutation done
+selection done
+Gen:40
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+842.708
+ratio: 0.000000 stable count: 17
+Time: 38.630000
+mutation done
+selection done
+Gen:41
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1205.03
+ratio: 0.000000 stable count: 18
+Time: 38.370000
+mutation done
+selection done
+Gen:42
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1972.06
+ratio: 0.000000 stable count: 19
+Time: 38.720000
+mutation done
+selection done
+Gen:43
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1314.28
+ratio: 0.000000 stable count: 20
+Time: 38.650000
+mutation done
+selection done
+Gen:44
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1469.3
+ratio: 0.000000 stable count: 21
+Time: 38.710000
+mutation done
+selection done
+Gen:45
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1771.12
+ratio: 0.000000 stable count: 22
+Time: 38.580000
+mutation done
+selection done
+Gen:46
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+883.545
+ratio: 0.000000 stable count: 23
+Time: 38.260000
+mutation done
+selection done
+Gen:47
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+487.981
+ratio: 0.000000 stable count: 24
+Time: 38.200000
+mutation done
+selection done
+Gen:48
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+562.5
+ratio: 0.000000 stable count: 25
+Time: 37.980000
+mutation done
+selection done
+Gen:49
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2313.6
+ratio: 0.000000 stable count: 26
+Time: 38.330000
+mutation done
+selection done
+Gen:50
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+745.933
+ratio: 0.000000 stable count: 27
+Time: 38.150000
+mutation done
+selection done
+Gen:51
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2318.56
+ratio: 0.000000 stable count: 28
+Time: 37.860000
+mutation done
+selection done
+Gen:52
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2270.52
+ratio: 0.000000 stable count: 29
+Time: 38.000000
+mutation done
+selection done
+Gen:53
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1797.68
+ratio: 0.000000 stable count: 30
+Time: 37.830000
+mutation done
+selection done
+Gen:54
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2303.42
+ratio: 0.000000 stable count: 31
+Time: 37.810000
+mutation done
+selection done
+Gen:55
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2869.02
+ratio: 0.000000 stable count: 32
+Time: 37.970000
+mutation done
+selection done
+Gen:56
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1486.48
+ratio: 0.000000 stable count: 33
+Time: 37.810000
+mutation done
+selection done
+Gen:57
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+4496.58
+ratio: 0.000000 stable count: 34
+Time: 38.310000
+mutation done
+selection done
+Gen:58
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1253.28
+ratio: 0.000000 stable count: 35
+Time: 38.070000
+mutation done
+selection done
+Gen:59
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2550.21
+ratio: 0.000000 stable count: 36
+Time: 38.370000
+mutation done
+selection done
+Gen:60
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1937.76
+ratio: 0.000000 stable count: 37
+Time: 38.020000
+mutation done
+selection done
+Gen:61
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1867.37
+ratio: 0.000000 stable count: 38
+Time: 37.920000
+mutation done
+selection done
+Gen:62
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1677.94
+ratio: 0.000000 stable count: 39
+Time: 38.180000
+mutation done
+selection done
+Gen:63
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+560.756
+ratio: 0.000000 stable count: 40
+Time: 37.490000
+mutation done
+selection done
+Gen:64
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2495.29
+ratio: 0.000000 stable count: 41
+Time: 37.600000
+mutation done
+selection done
+Gen:65
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1620.55
+ratio: 0.000000 stable count: 42
+Time: 37.220000
+mutation done
+selection done
+Gen:66
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1027.88
+ratio: 0.000000 stable count: 43
+Time: 37.350000
+mutation done
+selection done
+Gen:67
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2040.93
+ratio: 0.000000 stable count: 44
+Time: 36.900000
+mutation done
+selection done
+Gen:68
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1751.61
+ratio: 0.000000 stable count: 45
+Time: 36.680000
+mutation done
+selection done
+Gen:69
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1299.72
+ratio: 0.000000 stable count: 46
+Time: 36.550000
+mutation done
+selection done
+Gen:70
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1977
+ratio: 0.000000 stable count: 47
+Time: 36.630000
+mutation done
+selection done
+Gen:71
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2735.78
+ratio: 0.000000 stable count: 48
+Time: 36.500000
+mutation done
+selection done
+Gen:72
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1974.69
+ratio: 0.000000 stable count: 49
+Time: 36.240000
+mutation done
+selection done
+Gen:73
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1030.26
+ratio: 0.000000 stable count: 50
+Time: 36.100000
+mutation done
+selection done
+Gen:74
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3268.06
+ratio: 0.000000 stable count: 51
+Time: 36.160000
+mutation done
+selection done
+Gen:75
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2008.58
+ratio: 0.000000 stable count: 52
+Time: 35.850000
+mutation done
+selection done
+Gen:76
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+150
+ratio: 0.000000 stable count: 53
+Time: 36.200000
+mutation done
+selection done
+Gen:77
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3151.69
+ratio: 0.000000 stable count: 54
+Time: 36.140000
+mutation done
+selection done
+Gen:78
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+471.858
+ratio: 0.000000 stable count: 55
+Time: 35.850000
+mutation done
+selection done
+Gen:79
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+382.645
+ratio: 0.000000 stable count: 56
+Time: 35.470000
+mutation done
+selection done
+Gen:80
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+409.065
+ratio: 0.000000 stable count: 57
+Time: 35.500000
+mutation done
+selection done
+Gen:81
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2972
+ratio: 0.000000 stable count: 58
+Time: 35.230000
+mutation done
+selection done
+Gen:82
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2460.18
+ratio: 0.000000 stable count: 59
+Time: 35.070000
+mutation done
+selection done
+Gen:83
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2646.95
+ratio: 0.000000 stable count: 60
+Time: 34.950000
+mutation done
+selection done
+Gen:84
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1629.9
+ratio: 0.000000 stable count: 61
+Time: 34.720000
+mutation done
+selection done
+Gen:85
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1413.24
+ratio: 0.000000 stable count: 62
+Time: 35.080000
+mutation done
+selection done
+Gen:86
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2505.45
+ratio: 0.000000 stable count: 63
+Time: 34.680000
+mutation done
+selection done
+Gen:87
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3128.18
+ratio: 0.000000 stable count: 64
+Time: 34.760000
+mutation done
+selection done
+Gen:88
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2219.17
+ratio: 0.000000 stable count: 65
+Time: 34.480000
+mutation done
+selection done
+Gen:89
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+9.68903e-05
+ratio: 0.000000 stable count: 66
+Time: 34.280000
+mutation done
+selection done
+Gen:90
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+4049.55
+ratio: 0.000000 stable count: 67
+Time: 33.750000
+mutation done
+selection done
+Gen:91
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2314.77
+ratio: 0.000000 stable count: 68
+Time: 33.580000
+mutation done
+selection done
+Gen:92
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+4230.12
+ratio: 0.000000 stable count: 69
+Time: 33.690000
+mutation done
+selection done
+Gen:93
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3647.29
+ratio: 0.000000 stable count: 70
+Time: 33.250000
+mutation done
+selection done
+Gen:94
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3647.29
+ratio: 0.000000 stable count: 71
+Time: 33.280000
+mutation done
+selection done
+Gen:95
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3411.73
+ratio: 0.000000 stable count: 72
+Time: 33.400000
+mutation done
+selection done
+Gen:96
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+9.68903e-05
+ratio: 0.000000 stable count: 73
+Time: 33.490000
+mutation done
+selection done
+Gen:97
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2233.5
+ratio: 0.000000 stable count: 74
+Time: 33.290000
+mutation done
+selection done
+Gen:98
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3709.44
+ratio: 0.000000 stable count: 75
+Time: 33.410000
+mutation done
+selection done
+Gen:99
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3930.83
+ratio: 0.000000 stable count: 76
+Time: 33.040000
+mutation done
+selection done
+Gen:100
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1095.75
+ratio: 0.000000 stable count: 77
+Time: 32.770000
+mutation done
+selection done
+Gen:101
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3970.28
+ratio: 0.000000 stable count: 78
+Time: 32.670000
+mutation done
+selection done
+Gen:102
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3264.86
+ratio: 0.000000 stable count: 79
+Time: 32.430000
+mutation done
+selection done
+Gen:103
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2683.69
+ratio: 0.000000 stable count: 80
+Time: 32.360000
+mutation done
+selection done
+Gen:104
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3282.22
+ratio: 0.000000 stable count: 81
+Time: 32.150000
+mutation done
+selection done
+Gen:105
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1723.05
+ratio: 0.000000 stable count: 82
+Time: 32.070000
+mutation done
+selection done
+Gen:106
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+12768.7
+ratio: 0.000000 stable count: 83
+Time: 31.870000
+mutation done
+selection done
+Gen:107
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3973.8
+ratio: 0.000000 stable count: 84
+Time: 31.740000
+mutation done
+selection done
+Gen:108
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1661.45
+ratio: 0.000000 stable count: 85
+Time: 32.000000
+mutation done
+selection done
+Gen:109
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2256.92
+ratio: 0.000000 stable count: 86
+Time: 31.790000
+mutation done
+selection done
+Gen:110
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1992.05
+ratio: 0.000000 stable count: 87
+Time: 31.840000
+mutation done
+selection done
+Gen:111
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2228.18
+ratio: 0.000000 stable count: 88
+Time: 31.850000
+mutation done
+selection done
+Gen:112
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2296.03
+ratio: 0.000000 stable count: 89
+Time: 32.160000
+mutation done
+selection done
+Gen:113
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+4201.39
+ratio: 0.000000 stable count: 90
+Time: 33.140000
+mutation done
+selection done
+Gen:114
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+567
+ratio: 0.000000 stable count: 91
+Time: 34.680000
+mutation done
+selection done
+Gen:115
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+9236.61
+ratio: 0.000000 stable count: 92
+Time: 34.740000
+mutation done
+selection done
+Gen:116
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+535.5
+ratio: 0.000000 stable count: 93
+Time: 35.460000
+mutation done
+selection done
+Gen:117
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1281.11
+ratio: 0.000000 stable count: 94
+Time: 35.420000
+mutation done
+selection done
+Gen:118
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2277.25
+ratio: 0.000000 stable count: 95
+Time: 35.360000
+mutation done
+selection done
+Gen:119
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3208.75
+ratio: 0.000000 stable count: 96
+Time: 35.120000
+mutation done
+selection done
+Gen:120
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2715.97
+ratio: 0.000000 stable count: 97
+Time: 35.030000
+mutation done
+selection done
+Gen:121
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+6393.36
+ratio: 0.000000 stable count: 98
+Time: 35.500000
+mutation done
+selection done
+Gen:122
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3950.54
+ratio: 0.000000 stable count: 99
+Time: 35.640000
+mutation done
+selection done
+Gen:123
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+576
+ratio: 0.000000 stable count: 100
+Time: 35.440000
+mutation done
+selection done
+Gen:124
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+0
+ratio: 0.000000 stable count: 101
+Time: 35.120000
+mutation done
+selection done
+Gen:125
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1920
+ratio: 0.000000 stable count: 102
+Time: 35.100000
+mutation done
+selection done
+Gen:126
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+768
+ratio: 0.000000 stable count: 103
+Time: 34.990000
+mutation done
+selection done
+Gen:127
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+893.904
+ratio: 0.000000 stable count: 104
+Time: 35.160000
+mutation done
+selection done
+Gen:128
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+960
+ratio: 0.000000 stable count: 105
+Time: 35.100000
+mutation done
+selection done
+Gen:129
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+27
+ratio: 0.000000 stable count: 106
+Time: 35.020000
+mutation done
+selection done
+Gen:130
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+600.6
+ratio: 0.000000 stable count: 107
+Time: 34.920000
+mutation done
+selection done
+Gen:131
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+984.695
+ratio: 0.000000 stable count: 108
+Time: 34.880000
+mutation done
+selection done
+Gen:132
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+804
+ratio: 0.000000 stable count: 109
+Time: 35.200000
+mutation done
+selection done
+Gen:133
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2064.95
+ratio: 0.000000 stable count: 110
+Time: 35.100000
+mutation done
+selection done
+Gen:134
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2032.03
+ratio: 0.000000 stable count: 111
+Time: 35.240000
+mutation done
+selection done
+Gen:135
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2509.06
+ratio: 0.000000 stable count: 112
+Time: 34.860000
+mutation done
+selection done
+Gen:136
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+603
+ratio: 0.000000 stable count: 113
+Time: 35.120000
+mutation done
+selection done
+Gen:137
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1954.04
+ratio: 0.000000 stable count: 114
+Time: 35.390000
+mutation done
+selection done
+Gen:138
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+921.098
+ratio: 0.000000 stable count: 115
+Time: 34.880000
+mutation done
+selection done
+Gen:139
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+844
+ratio: 0.000000 stable count: 116
+Time: 35.050000
+mutation done
+selection done
+Gen:140
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1033.68
+ratio: 0.000000 stable count: 117
+Time: 34.990000
+mutation done
+selection done
+Gen:141
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1563.91
+ratio: 0.000000 stable count: 118
+Time: 35.070000
+mutation done
+selection done
+Gen:142
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1614.79
+ratio: 0.000000 stable count: 119
+Time: 34.870000
+mutation done
+selection done
+Gen:143
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2597.5
+ratio: 0.000000 stable count: 120
+Time: 34.710000
+mutation done
+selection done
+Gen:144
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2739.29
+ratio: 0.000000 stable count: 121
+Time: 34.760000
+mutation done
+selection done
+Gen:145
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2768.24
+ratio: 0.000000 stable count: 122
+Time: 34.530000
+mutation done
+selection done
+Gen:146
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2597.5
+ratio: 0.000000 stable count: 123
+Time: 34.960000
+mutation done
+selection done
+Gen:147
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2078
+ratio: 0.000000 stable count: 124
+Time: 34.590000
+mutation done
+selection done
+Gen:148
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2904.55
+ratio: 0.000000 stable count: 125
+Time: 34.290000
+mutation done
+selection done
+Gen:149
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1558.5
+ratio: 0.000000 stable count: 126
+Time: 34.480000
+mutation done
+selection done
+Gen:150
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2078
+ratio: 0.000000 stable count: 127
+Time: 34.610000
+mutation done
+selection done
+Gen:151
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2428.51
+ratio: 0.000000 stable count: 128
+Time: 34.480000
+mutation done
+selection done
+Gen:152
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2545.02
+ratio: 0.000000 stable count: 129
+Time: 34.320000
+mutation done
+selection done
+Gen:153
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2078
+ratio: 0.000000 stable count: 130
+Time: 34.790000
+mutation done
+selection done
+Gen:154
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3389.02
+ratio: 0.000000 stable count: 131
+Time: 34.360000
+mutation done
+selection done
+Gen:155
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2402.28
+ratio: 0.000000 stable count: 132
+Time: 34.630000
+mutation done
+selection done
+Gen:156
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2484.71
+ratio: 0.000000 stable count: 133
+Time: 34.910000
+mutation done
+selection done
+Gen:157
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+638.909
+ratio: 0.000000 stable count: 134
+Time: 34.810000
+mutation done
+selection done
+Gen:158
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+0
+ratio: 0.000000 stable count: 135
+Time: 34.890000
+mutation done
+selection done
+Gen:159
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1920
+ratio: 0.000000 stable count: 136
+Time: 34.630000
+mutation done
+selection done
+Gen:160
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2200
+ratio: 0.000000 stable count: 137
+Time: 34.340000
+mutation done
+selection done
+Gen:161
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2520.42
+ratio: 0.000000 stable count: 138
+Time: 34.340000
+mutation done
+selection done
+Gen:162
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1177.5
+ratio: 0.000000 stable count: 139
+Time: 34.540000
+mutation done
+selection done
+Gen:163
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2892.69
+ratio: 0.000000 stable count: 140
+Time: 34.740000
+mutation done
+selection done
+Gen:164
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+0
+ratio: 0.000000 stable count: 141
+Time: 34.680000
+mutation done
+selection done
+Gen:165
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2626.33
+ratio: 0.000000 stable count: 142
+Time: 34.450000
+mutation done
+selection done
+Gen:166
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+0
+ratio: 0.000000 stable count: 143
+Time: 34.700000
+mutation done
+selection done
+Gen:167
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+0
+ratio: 0.000000 stable count: 144
+Time: 34.760000
+mutation done
+selection done
+Gen:168
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1532.35
+ratio: 0.000000 stable count: 145
+Time: 34.500000
+mutation done
+selection done
+Gen:169
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1845.02
+ratio: 0.000000 stable count: 146
+Time: 34.470000
+mutation done
+selection done
+Gen:170
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+400
+ratio: 0.000000 stable count: 147
+Time: 34.530000
+mutation done
+selection done
+Gen:171
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+0
+ratio: 0.000000 stable count: 148
+Time: 34.330000
+mutation done
+selection done
+Gen:172
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2388.49
+ratio: 0.000000 stable count: 149
+Time: 34.250000
+mutation done
+selection done
+Gen:173
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2808.73
+ratio: 0.000000 stable count: 150
+Time: 34.110000
+mutation done
+selection done
+Gen:174
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2881.58
+ratio: 0.000000 stable count: 151
+Time: 33.980000
+mutation done
+selection done
+Gen:175
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+3034.52
+ratio: 0.000000 stable count: 152
+Time: 34.010000
+mutation done
+selection done
+Gen:176
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2694.44
+ratio: 0.000000 stable count: 153
+Time: 34.310000
+mutation done
+selection done
+Gen:177
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2520.42
+ratio: 0.000000 stable count: 154
+Time: 33.900000
+mutation done
+selection done
+Gen:178
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2760.79
+ratio: 0.000000 stable count: 155
+Time: 33.820000
+mutation done
+selection done
+Gen:179
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2599.95
+ratio: 0.000000 stable count: 156
+Time: 34.020000
+mutation done
+selection done
+Gen:180
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2930
+ratio: 0.000000 stable count: 157
+Time: 33.950000
+mutation done
+selection done
+Gen:181
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2813.19
+ratio: 0.000000 stable count: 158
+Time: 33.830000
+mutation done
+selection done
+Gen:182
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1650
+ratio: 0.000000 stable count: 159
+Time: 34.070000
+mutation done
+selection done
+Gen:183
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2831.15
+ratio: 0.000000 stable count: 160
+Time: 33.860000
+mutation done
+selection done
+Gen:184
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2989.81
+ratio: 0.000000 stable count: 161
+Time: 34.120000
+mutation done
+selection done
+Gen:185
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+711.93
+ratio: 0.000000 stable count: 162
+Time: 33.530000
+mutation done
+selection done
+Gen:186
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2130.48
+ratio: 0.000000 stable count: 163
+Time: 33.510000
+mutation done
+selection done
+Gen:187
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+0
+ratio: 0.000000 stable count: 164
+Time: 33.540000
+mutation done
+selection done
+Gen:188
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1639.43
+ratio: 0.000000 stable count: 165
+Time: 33.150000
+mutation done
+selection done
+Gen:189
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1035.33
+ratio: 0.000000 stable count: 166
+Time: 33.350000
+mutation done
+selection done
+Gen:190
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+5437.86
+ratio: 0.000000 stable count: 167
+Time: 33.840000
+mutation done
+selection done
+Gen:191
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2520.42
+ratio: 0.000000 stable count: 168
+Time: 33.810000
+mutation done
+selection done
+Gen:192
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1879.9
+ratio: 0.000000 stable count: 169
+Time: 33.420000
+mutation done
+selection done
+Gen:193
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2039.53
+ratio: 0.000000 stable count: 170
+Time: 33.480000
+mutation done
+selection done
+Gen:194
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+852.806
+ratio: 0.000000 stable count: 171
+Time: 33.350000
+mutation done
+selection done
+Gen:195
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2366.54
+ratio: 0.000000 stable count: 172
+Time: 33.410000
+mutation done
+selection done
+Gen:196
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2200
+ratio: 0.000000 stable count: 173
+Time: 33.370000
+mutation done
+selection done
+Gen:197
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2799.8
+ratio: 0.000000 stable count: 174
+Time: 33.270000
+mutation done
+selection done
+Gen:198
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2958.36
+ratio: 0.000000 stable count: 175
+Time: 33.350000
+mutation done
+selection done
+Gen:199
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+2312.21
+ratio: 0.000000 stable count: 176
+Time: 33.230000
+mutation done
+selection done
+Gen:200
+0
+0 0 0 0 0 0 0 0 0 0 
+0.504005,0.480612,0.0153829,0,22.6065,-2.1772e+07
+1813.5
+ratio: 0.000000 stable count: 177
+Time: 33.300000
+FINAL Population size
+10
+Best : -2.1772e+07   27:50-23-69-19-36-41-35-6-21-30-26-8-51-58-33-22-38-66-29-48-39-18-67-27-12-40-46- ,  30:19-36-41-51-56-8-52-20-43-50-0-69-18-65-39-48-29-23-2-14-60-17-10-16-26-30-63-6-47-40- ,  29:11-9-17-20-33-22-19-36-41-51-8-26-49-42-24-63-6-35-34-25-27-67-18-66-3-23-50-43-61- ,  30:43-13-22-45-41-27-25-34-51-8-26-49-42-15-11-9-17-50-23-69-18-32-39-48-3-0-2-14-44-60- ,  27:0-50-33-58-34-25-4-53-40-12-41-36-38-3-19-22-13-20-52-64-35-51-56-8-26-1-68- ,  27:8-55-16-26-30-63-24-62-49-1-59-17-20-33-22-38-18-32-65-67-27-12-41-36-54-5-37- ,  30:7-47-6-56-8-26-1-31-9-17-20-33-58-41-25-4-53-40-12-27-67-18-54-36-45-34-51-64-52-55- ,  23:24-63-6-35-41-27-67-5-54-19-22-33-20-17-9-1-26-8-51-34-25-4-40- ,  29:58-64-52-10-59-68-9-17-50-23-3-48-39-18-19-22-33-20-55-16-1-26-8-51-41-36-38-69-29- ,  30:44-14-2-0-69-18-37-67-27-41-51-8-26-62-49-1-16-55-10-28-56-6-21-30-15-11-59-17-43-13- ,  23:53-4-12-41-45-22-33-43-61-17-59-1-49-15-30-26-8-51-57-25-27-67-65- ,  30:38-36-41-35-6-47-53-4-25-27-67-37-18-19-22-33-58-64-52-20-17-60-14-2-0-69-66-54-32-39- ,  27:33-43-61-44-17-20-52-64-58-41-12-25-34-51-56-28-8-26-1-31-11-15-30-63-6-47-53- ,  27:0-50-17-10-16-26-30-24-21-6-35-58-33-13-22-19-29-66-54-18-69-38-36-41-25-4-53- ,  26:32-54-36-41-57-58-33-50-2-14-61-17-10-28-56-6-47-53-46-7-4-25-34-45-22-13- , 
+
+0.504005
+0.480612
+0.0153829
+0
+22.6065
+-2.1772e+07
+All Run Best : -2.15645e+07   26:23-69-19-36-41-35-6-21-30-26-8-51-58-33-22-38-66-29-48-39-18-67-27-12-40-46- ,  29:40-12-41-58-33-43-61-60-17-50-23-29-19-22-13-20-10-59-11-1-26-8-51-34-45-36-54-18-39- ,  30:24-30-26-1-68-59-17-61-14-2-50-43-20-55-16-9-31-11-15-62-21-6-47-53-4-25-41-36-38-3- ,  28:32-18-38-22-33-43-20-55-8-56-6-47-7-4-25-41-36-19-66-69-23-50-17-59-1-49-62-24- ,  20:44-17-20-52-64-58-41-12-25-34-51-8-28-10-16-1-31-11-15-30- ,  30:11-9-17-20-33-22-19-36-41-51-8-26-30-42-24-63-6-35-34-25-27-67-65-18-66-69-23-50-43-61- ,  30:7-47-6-56-8-26-1-31-11-59-10-52-64-51-57-41-36-54-65-5-18-69-23-50-33-58-34-25-4-53- ,  30:34-51-8-55-17-50-0-3-38-36-41-35-6-21-62-26-16-10-20-33-22-19-18-37-67-27-25-4-7-47- ,  26:27-41-45-58-64-52-10-59-68-9-17-50-23-3-48-39-18-38-22-33-20-55-16-26-49-42- ,  29:37-18-69-0-2-14-44-61-43-33-22-19-54-5-67-27-41-51-8-10-59-17-20-52-64-35-57-25-12- ,  28:57-35-6-63-30-26-1-59-17-20-33-22-38-18-32-54-36-45-58-64-52-55-16-9-49-42-15-11- ,  20:19-36-41-51-56-6-35-64-52-8-26-49-1-59-17-60-61-43-13-50- ,  27:0-69-18-65-39-48-3-23-2-50-33-58-41-12-40-47-6-63-30-15-49-26-8-51-57-25-27- ,  24:54-19-69-38-22-33-58-35-6-63-24-30-26-16-10-17-50-0-3-48-39-32-5-37- ,  26:32-54-36-41-57-58-33-50-2-14-61-17-10-28-56-6-47-53-46-7-4-25-34-45-22-13- , 
+
+0.519627
+0.471869
+0.00850392
+0
+22.391
+-2.15645e+07
