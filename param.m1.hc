@@ -1,0 +1,21 @@
+routeSetSize 15
+pSwap 0.0
+popSize 1
+elite 2
+pSm 0.1
+paSm 0.0
+prcm 0.0
+pDelete 0.4
+tFit 200
+neighborhoodSize 50
+maxGen 200
+run 10
+stableCount 20
+e 0.7
+minGen 1
+minFitnessRatio 0.00001
+minRouteLength 10
+maxRouteLength 30
+
+maxIter 1
+beta 0.8

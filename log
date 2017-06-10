@@ -1,0 +1,199 @@
+routeSetSize:15
+pSwap:0
+popSize:20
+elite:2
+pSm:0.5
+paSm:0.1
+prcm:0
+pDelete:0.4
+tFit:80
+neighborhoodSize:10
+maxGen:200
+run:5
+stableCount:20
+e:0.7
+minGen:1
+minFitnessRatio:1e-05
+minRouteLength:10
+maxRouteLength:30
+maxIter:1
+beta:0.8
+beta:0.8
+ OpATT19.2695
+minRputeSize: 10 maxRouteSize: 30
+mutation constructed
+Initial : -2.23361e+07
+0.45834
+0.499001
+0.0413411
+0.00131868
+23.1314
+
+-----------------------------------------
+Iteration:0 started
+
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 5
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Size before aggressive mutation: 29
+Size after aggressive mutation: 29
+Aggressive Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 1
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 6
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 1
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 5
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 4
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 9
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 3
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 3
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 5
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 5
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 4
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 1
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 1
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 2
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 2
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Size before aggressive mutation: 25
+Size after aggressive mutation: 27
+Aggressive Mutation Successful
+Size before aggressive mutation: 23
+Size after aggressive mutation: 29
+Aggressive Mutation Successful
+Small Mutation Successful
+Size before aggressive mutation: 23
+Size after aggressive mutation: 24
+Aggressive Mutation Successful
+Adjacency List Size for Small Mutation: 4
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 5
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 4
+Small Mutation Successful
+Size before aggressive mutation: 25
+Size after aggressive mutation: 25
+Aggressive Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 3
+Small Mutation Successful
+Size before aggressive mutation: 30
+Size after aggressive mutation: 29
+Aggressive Mutation Successful
+Adjacency List Size for Small Mutation: 4
+Small Mutation Successful
+Size before aggressive mutation: 24
+Size after aggressive mutation: 25
+Aggressive Mutation Successful
+Adjacency List Size for Small Mutation: 1
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 4
+Small Mutation Successful
+Size before aggressive mutation: 25
+Size after aggressive mutation: 19
+Aggressive Mutation Successful
+Adjacency List Size for Small Mutation: 2
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 3
+Small Mutation Successful
+Size before aggressive mutation: 26
+Size after aggressive mutation: 19
+Aggressive Mutation Successful
+Small Mutation Successful
+Size before aggressive mutation: 28
+Size after aggressive mutation: 28
+Aggressive Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 2
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 2
+Small Mutation Successful
+Small Mutation Successful
+Size before aggressive mutation: 19
+Size after aggressive mutation: 20
+Aggressive Mutation Successful
+Size before aggressive mutation: 26
+Size after aggressive mutation: 30
+Aggressive Mutation Successful
+Adjacency List Size for Small Mutation: 3
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 5
+Small Mutation Successful
+Size before aggressive mutation: 28
+Size after aggressive mutation: 24
+Aggressive Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 6
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 3
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Small Mutation Successful
+Adjacency List Size for Small Mutation: 2
+Small Mutation Successful
+Small Mutation Successful
+Size before aggressive mutation: 25
+Size after aggressive mutation: 28

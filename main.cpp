@@ -47,9 +47,9 @@ void main_function(int argc, char **argv)
     eoDetTournamentSelect<Indi> selectOne(parameters["tFit"]);
     //double perc = (parameters["popSize"] - parameters["eilte"]) / parameters["popSize"]; //eilte
     //unsigned parentNum = parameters["popSize"] - parameters["elite"]; 
-    unsigned parentNum = parameters["popSize"]; 
+    unsigned popSize = parameters["popSize"]; 
     //eoSelectPerc<Indi> select(selectOne, perc);
-    eoSelectNumber<Indi> select(selectOne, parentNum);
+    eoSelectNumber<Indi> select(selectOne, popSize);
 
     //crossover
     RouteSetQuadCrossover<Indi> xover(parameters["pSwap"]);
@@ -57,6 +57,7 @@ void main_function(int argc, char **argv)
     //mutations
     RouteCrossMutation<Indi> rcM(routeEval, minRouteSize, maxRouteSize);
     BigMutation<Indi> bM(routeEval);
+    OldBigMutation<Indi> obM(routeEval);
     SmallMutation<Indi> sM(parameters["pDelete"], routeEval);
     AggressiveSmallMutation<Indi> asM(parameters["pDelete"], routeEval);
     
@@ -64,7 +65,8 @@ void main_function(int argc, char **argv)
     eoPropCombinedMonOp<Indi> mutation(sM, parameters["pSm"]);
     mutation.add(asM, parameters["paSm"]);
     mutation.add(rcM, parameters["prcm"]);
-    mutation.add(bM, 1 - parameters["prcm"] - parameters["pSm"] - parameters["paSm"]);
+    mutation.add(obM, parameters["pobm"]);
+    mutation.add(bM, 1 - parameters["prcm"] - parameters["pSm"] - parameters["paSm"] - parameters["pobm"]);
 	printf("mutation constructed\n");
     //stop after maxGen generations
     //eoGenContinue<Indi> continuator(parameters["minGen"], parameters[]);

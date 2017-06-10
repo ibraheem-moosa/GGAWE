@@ -74,6 +74,7 @@ void popInitDiverse(eoPop< RouteSet<double> >& _pop, int popSize, int routeSetSi
     {
         //printf("Getting %d-th initial route set\n", i);
         RouteSet<double> initRs;
+        initRs.set_id(i);
         vector< Route<double> > initV;
         for (int iroute = 0; iroute < routeSetSize; iroute++)
         {

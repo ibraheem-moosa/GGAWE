@@ -111,6 +111,7 @@ public:
 				for(unsigned j = 0; j < parameters["neighborhoodSize"]; j++)
 				{
 					R.push_back(_pop[i]);
+                    R.back().set_parent_id(_pop[i].id);
 				}
 			}
 			for(unsigned i = 0; i < R.size(); i++)
@@ -120,10 +121,10 @@ public:
 				//R[i].fitness();
 			}
 			apply<EOT > (eval, R); //Assess Fitness
-			std::cout << "mutation done\n";
+			//std::cout << "mutation done\n";
 			select(R, Q);
 			// std::cout <<"Q after breed"<<Q;
-			std::cout << "selection done\n";
+			//std::cout << "selection done\n";
 			// std::cout <<"Best indi:"<<Q[Q.size() - elite]<<std::endl;
 			std::cout << "Gen:" << gen << std::endl;
 			EOT competitor;
@@ -146,6 +147,14 @@ public:
 			{
 				actualBest = competitor;
 			}
+            /*
+            std::cout << actualBest.id << std::endl;
+            for(unsigned i = 0; i < _pop.size(); i++)
+            {
+                std::cout << _pop[i].id << " " ;
+            }
+            std::cout << std::endl;
+            */
 			std::cout << actualBest.D[0] << ',' << actualBest.D[1] << ',' << actualBest.D[2] << ',' << actualBest.Dun << ',' << actualBest.ATT  << ',' << actualBest.fitness()<< std::endl;
 			double average_fitness = 0.0;
 			for(auto individual : _pop) {
@@ -161,6 +170,10 @@ public:
 			std::cout << std_dev << std::endl;
 
 			_pop.swap(Q);
+            for(int i = 0; i < _pop.size(); i++){
+                _pop[i].set_id(i);
+                printf("%d %d %d %lf\n", i, _pop[i].parent_id, _pop[i].mutation_applied, _pop[i].fitness());
+            }
 			//apply<EOT > (eval, _pop); //Assess Fitness
 
 			double fitnessImprovementRatio = (best.fitness() - prevBest) / fabs(prevBest);  

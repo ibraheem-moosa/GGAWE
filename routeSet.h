@@ -23,6 +23,9 @@ public:
      * though such individuals will generally be processed
      * by some eoInit object
      */
+    int id;
+    int parent_id;
+    int mutation_applied;
     RouteSet()
     {
         // START Code of default Ctor of an RouteSet object
@@ -109,6 +112,21 @@ public:
     int size()
     {
         return rS.size();
+    }
+
+    void set_id(int id)
+    {
+        this->id = id;
+    }
+
+    void set_parent_id(int p_id)
+    {
+        this->parent_id = p_id;
+    }
+
+    void set_mutation_applied(int mutation_applied)
+    {
+        this->mutation_applied = mutation_applied;
     }
 
 //    bool isTrouble()

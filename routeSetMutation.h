@@ -11,6 +11,10 @@
 #define FRONT 0
 #define BACK 1
 
+#define SMALL_MUT_TYPE 0
+#define AS_MUT_TYPE 1
+#define BIG_MUT_TYPE 2
+
 //#include <eoOp.h>
 //#include<utils/eoRNG.h>
 #include <algorithm>
@@ -18,8 +22,8 @@
 #include "inputData.h"
 //#include "./heuristics/genRoute.h"
 
-#define MUTATION_DEBUG
-//#undef MUTATION_DEBUG
+//#define MUTATION_DEBUG
+#undef MUTATION_DEBUG
 
 #pragma GCC push_options
 #pragma GCC optimize("O3")
@@ -107,7 +111,7 @@ public:
         //int mutIndex = rouletteWheelForRoute(_genotype, eval);
         int mutIndex = rand()%(_genotype.size());
         Route<double>& mutRoute = _genotype[mutIndex];
-
+        _genotype.set_mutation_applied(SMALL_MUT_TYPE);
 
         //  std::cout << mutRoute << std::endl;
         std::list<int>::iterator it[2], nIt;
@@ -186,6 +190,7 @@ APPEND:     vector<int> AdjListForSelected = AdjList[selectedNode];
 #ifdef MUTATION_DEBUG
 		puts("Small Mutation Successful");
 #endif
+
         return true;
         // END code for mutation of the _genotype object
     }
@@ -232,11 +237,13 @@ public:
     {
         // START code for mutation of the _genotype object
         //int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        
+        _genotype.set_mutation_applied(AS_MUT_TYPE);
         int mutIndex = rand()%(_genotype.size());
         Route<double>& mutRoute = _genotype[mutIndex];
         int num_of_in_or_dels = random() % (mutRoute.mutableR().size() / 2);
 
-        cout << "Size before aggressive mutation: " << mutRoute.mutableR().size() << endl;
+        //cout << "Size before aggressive mutation: " << mutRoute.mutableR().size() << endl;
         
         //  std::cout << mutRoute << std::endl;
         std::list<int>::iterator it[2], nIt;
@@ -341,7 +348,7 @@ public:
  		
 		mutRoute.invalidate();
         
-        cout << "Size after aggressive mutation: " << mutRoute.mutableR().size() << endl;
+        //cout << "Size after aggressive mutation: " << mutRoute.mutableR().size() << endl;
 
 #ifdef MUTATION_DEBUG
 		puts("Aggressive Mutation Successful");
@@ -554,6 +561,8 @@ public:
     {
         // START code for mutation of the _genotype object
         //int mutIndex = rouletteWheelForRoute(_genotype, eval);
+
+        _genotype.set_mutation_applied(BIG_MUT_TYPE);
         int mutIndex = rand()%(_genotype.size());
 
         Route<double>& mutRoute = _genotype[mutIndex];
@@ -609,6 +618,76 @@ private:
     // START Private data of an BigMutation object
     eoEvalFuncPtr< Route<double> >& eval; // END   Private data of an BigMutation object
 };
+
+
+template<class GenotypeT>
+class OldBigMutation : public eoMonOp<GenotypeT>
+{
+public:
+    /**
+     * Ctor - no requirement
+     */
+    // START eventually add or modify the anyVariable argument
+
+    OldBigMutation(eoEvalFuncPtr< Route<double> >& _eval) : eval(_eval)
+    //  BigMutation( varType  _anyVariable) : anyVariable(_anyVariable)
+    // END eventually add or modify the anyVariable argument
+    {
+
+        // START Code of Ctor of an BigMutation object
+        // END   Code of Ctor of an BigMutation object
+    }
+
+    /// The class name. Used to display statistics
+
+    string className() const
+    {
+        return "OldBigMutation";
+    }
+
+    /**
+     * modifies the parent
+     * @param _genotype The parent genotype (will be modified)
+     */
+    bool operator()(GenotypeT & _genotype)
+    {
+        // START code for mutation of the _genotype object
+        int mutIndex = rouletteWheelForRoute(_genotype, eval);
+        Route<double>& mutRoute = _genotype[mutIndex];
+
+        //std::cout<<_genotype[mutIndex]<<std::endl;
+
+        int terminal[2];
+        terminal[0] = mutRoute.mutableR().front();
+        terminal[1] = mutRoute.mutableR().back();
+        int startNode = terminal[rng.flip()];
+        if(startNode > VERTICES_NO)
+        {
+            cout<<mutRoute<<endl;
+        }
+        int endNode = rouletteWheelForPath(startNode);
+        if(sPath[startNode][endNode].size() < minRouteSize)
+            return false;
+        if(sPath[startNode][endNode].size() > maxRouteSize)
+            return false;
+        mutRoute.setR(sPath[startNode][endNode]);
+        vector<int> newNodeList(VERTICES_NO, 0);
+        for (list<int>::iterator lit = sPath[startNode][endNode].begin(); lit != sPath[startNode][endNode].end(); lit++)
+        {
+            newNodeList[*lit] = 1;
+        }
+        mutRoute.setNodeList(newNodeList);
+
+        mutRoute.invalidate();
+        return true;
+        // END code for mutation of the _genotype object
+    }
+
+private:
+    // START Private data of an BigMutation object
+    eoEvalFuncPtr< Route<double> >& eval; // END   Private data of an BigMutation object
+};
+
 
 
 #endif	/* _ROUTESETMUTATION_H */

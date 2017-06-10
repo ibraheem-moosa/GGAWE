@@ -133,7 +133,7 @@ class RouteSetQuadCrossover : public eoQuadOp<GenotypeT>
 							most_similar_routes.push_back(possible_routes[j]);
 					}
 					mostSimilarRoute = most_similar_routes[random() % most_similar_routes.size()];
-					printf("%d %d %d\n", _genotype1[i].size(), maxRouteSimilarity, most_similar_routes.size());
+					//printf("%d %d %d\n", _genotype1[i].size(), maxRouteSimilarity, most_similar_routes.size());
 					/*
 					if(_genotype1[i].size() - 1 == maxRouteSimilarity)
 					{
