@@ -27,7 +27,7 @@ params['pSwap'] = 1
 import subprocess
 import time
 import sys
-default_params = {'pSm' : 0.5, 'paSm' : 0.1, 'tFit' : 80, 'popSize' :10, 'neighborhoodSize' : 20, 'pDelete' : 0.4}
+default_params = {'pSm' : 0.0, 'paSm' : 0.1, 'tFit' : 80, 'popSize' :10, 'neighborhoodSize' : 20, 'pDelete' : 0.4}
 processes = []
 output_files = []
 
@@ -55,7 +55,7 @@ def run_progs(var, values):
         output_files.append(out_file)
         p = subprocess.Popen(['./m1_lbs_heuristics', param_fname], stdout=out_file, stderr=subprocess.DEVNULL)
         processes.append(p)
-        if len(processes) == 8:
+        if len(processes) == 10:
             prog_teriminated = None
             while prog_teriminated == None:
                 for i, p in enumerate(processes):
@@ -68,12 +68,13 @@ def run_progs(var, values):
             processes.remove(processes[prog_teriminated])
 
 #run_progs('popSize', list(range(15, 65, 5)))
-#run_progs('pSm', [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0])
+#run_progs('pDelete', [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0])
+run_progs('pDelete', [1.0])
 #run_progs('pSm', [0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
 #run_progs(('pSm', 'paSm'), [(x, 1.0 - x) for x in [0.0, 0.2, 0.4, 0.6, 0.8, 1.0]])
 #run_progs('paSm', [0.0, 0.1, 0.2, 0.3, 0.4])
 #run_progs('pDelete', [0.1, 0.3, 0.5, 0.7, 0.9])
-run_progs('tFit', list(range(60, 201, 20)))
+run_progs('tFit', list(range(20, 201, 20)))
 #run_progs('elite', list(range(1, 20, 2)))
 #run_progs('pSwap', [x for x in range(0, 3)])
 

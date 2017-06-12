@@ -15,6 +15,14 @@
 //#include "inputData.h"
 
 
+#include <unordered_map>
+#include <tuple>
+
+unordered_map<string, tuple<double, double, double, double, double, double> > calculated_fitnesses;
+
+
+
+
 struct vertex
 {
     int id, d, p, t;
@@ -135,6 +143,14 @@ public:
     void operator()(EOT & _eo)
     {
         // test for invalid to avoid recomputing fitness of unmodified individuals
+        stringstream ss;
+		_eo.printOn(ss);
+		string this_eo = ss.str();
+		if(calculated_fitnesses.count(this_eo) == 1)
+		{
+			tie(_eo.actualFitness, _eo.D[0], _eo.D[1], _eo.D[2], _eo.Dun, _eo.ATT) = calculated_fitnesses[this_eo];
+			return;
+		}
         if (_eo.invalid())
         {
             // START Code of computation of fitness of the RouteSet object
@@ -283,7 +299,7 @@ public:
             _eo.D[2] = D[2] / totalDemand;
             _eo.Dun = Dun / totalDemand;
             _eo.ATT = ATT / totalSatisfied;
-
+			calculated_fitnesses[this_eo] = make_tuple(_eo.actualFitness, _eo.D[0], _eo.D[1], _eo.D[2], _eo.Dun, _eo.ATT); 
         }
     }
 private:

@@ -2,12 +2,12 @@ routeSetSize 15
 pSwap 0.0
 popSize 1
 elite 2
-pSm 0.1
+pSm 0.5
 paSm 0.0
 prcm 0.0
 pDelete 0.4
 tFit 200
-neighborhoodSize 100
+neighborhoodSize 50
 maxGen 200
 run 10
 stableCount 20
