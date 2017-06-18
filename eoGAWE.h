@@ -40,6 +40,14 @@
 #include <cmath>
 #include "inputData.h"
 
+#include <unordered_map>
+#include <tuple>
+
+extern unordered_map<string, tuple<double, double, double, double, double, double> > calculated_fitnesses;
+
+
+
+
 /** The Simple Genetic Algorithm,
  *
  * Needs a selector (class eoSelectOne) a crossover (eoQuad, i.e. a
@@ -197,6 +205,7 @@ public:
 			gen++;
 			//printf("%d\n", _pop.size());
 			printf("Time: %lf\n", (clock() - start_time) / CLOCKS_PER_SEC);
+			printf("Unique individuals seen: %ld\n", calculated_fitnesses.size());
 		}while (genCount--);
 	}
 #pragma GCC pop_options
